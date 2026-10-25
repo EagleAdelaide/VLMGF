@@ -1,0 +1,47 @@
+{
+  "scope": "Disclosure of existing archived configurations; no parameter changes or new sampling.",
+  "upstream_commit": "5e8fca7ef091bc6751cad9703ca430e775aa4433",
+  "license": "MIT",
+  "variants": {
+    "code_default": {
+      "patch_size": 28,
+      "activation_threshold": 0.0
+    },
+    "paper_params": {
+      "patch_size": 14,
+      "activation_threshold": 0.3
+    }
+  },
+  "weights": {
+    "concentration": 0.6,
+    "entropy": 0.2,
+    "margin": 0.2
+  },
+  "active_mask": "heatmap_probability > max_probability * activation_threshold",
+  "connectivity": 4,
+  "spatial_representation": "Parsed sampled-box centers mapped to each frozen resized input frame, then patch-grid heatmap.",
+  "invalid_sample_rule": "skip; score 1.0 if no valid samples",
+  "scored_prediction": "Frozen greedy box, never replaced by a sampled box.",
+  "generation_parameters_separate": {
+    "K": 10,
+    "temperature": 1.0,
+    "top_k": 0,
+    "top_p": 1.0,
+    "output_caps": {
+      "Qwen": 128,
+      "InternVL": 160
+    }
+  },
+  "source_hashes": {
+    "r9_1/r9_score.py": "4377df48c39562cf4b2dab1387213a81dc2216a865dd99ab68d9383abb10b087",
+    "r9_1/r9_evaluate.py": "e038153bdf5ad0f425694625ff305753ce027d628a8ce265e57ca299131d680c",
+    "r9_1/third_party/SAFEGROUND/PROVENANCE.md": "415fb5d03755ce6717b91eef2e7f4947393dc52a3a926b0522caa8e3905e31b3",
+    "r9_1/third_party/SAFEGROUND/code/uncertainty.py": "66c54eba299705942d9fbb8364d7ffae8a2cb7d88502d78db3e43ced8b9a9e27",
+    "r9_1/third_party/SAFEGROUND/code/combined.py": "b08454f550a4ad3129d122ca28a6a014adcbdfe0f00c4d526b98211b8291f343",
+    "r9_1/third_party/SAFEGROUND/code/regions.py": "8a0589783c48fdb110071fc26ebced4e5879c8d2a1b3a0a80fe428add0b0ef8c",
+    "protocol/EXPERIMENT_PROTOCOL.md": "76fa8d9de22e81f4b2567ace3070a6741821a070f726a446e944ed786059664c",
+    "r9_1/inputs_frozen.csv": "82f4f88074c0d4a80a2f22bfbc9dcbf446079a9d70442741f5e5d2eddb2c58fb",
+    "r9_1/internvl35_4b/inputs_frozen_internvl35_4b.csv": "a76e27f3f2d0aa10c012d944396c60241f28d8f9aa99396f9fa3f0ba80ac8def"
+  },
+  "published_parameter_provenance": "Archived pre-output R9.1/R9.2 protocol and VARIANTS, not a new independent paper implementation or parameter choice."
+}

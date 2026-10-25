@@ -1,0 +1,6 @@
+{
+  "averaging_unit": "equal-weight mean of the two model-specific AUROC differences",
+  "point_estimate": "observed full-sample statistic; bootstrap mean separately identified",
+  "interval": "original synchronized task-cluster percentile 95%, 2000 draws, seed 20261009; fixed heads",
+  "all_original_intervals_and_bootstrap_means_reproduced": true
+}

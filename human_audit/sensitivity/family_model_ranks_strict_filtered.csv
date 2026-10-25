@@ -1,0 +1,10 @@
+model_slug,refcoco,visual7w,visual_genome,flickr30k_entities,gqa
+florence2l,8.0,7.0,2.0,1.0,1.0
+internvl35_4b,1.0,2.0,6.0,6.0,6.0
+internvl3_2b,5.0,6.0,7.0,7.0,7.0
+internvl3_8b,7.0,8.0,9.0,8.0,8.0
+llava15_7b,9.0,9.0,8.0,9.0,9.0
+paligemma2_3b,6.0,5.0,5.0,2.0,3.0
+qwen25vl3b,4.0,4.0,3.0,4.0,5.0
+qwen25vl7b,3.0,3.0,4.0,5.0,4.0
+qwen3vl4b,2.0,1.0,1.0,3.0,2.0

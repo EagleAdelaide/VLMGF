@@ -1,0 +1,201 @@
+selection_position,sample_id,assigned_stratum,expression,predicted_area_proxy,cross_interface_agreement_proxy,router_reliability_proxy,eligible_relation_or_spatial,eligible_part_reference,eligible_small_or_medium_predicted,eligible_high_interface_disagreement,eligible_low_router_reliability,eligible_easy_proxy_control
+0,1394064,relation_or_spatial,"white bench on right, all of the bench is shown",0.06489,0.4404158335038706,0.37870446247546824,True,False,True,True,True,False
+1,98214,relation_or_spatial,couch on botto,0.27729,0.9763887149496586,0.9714043310797779,True,False,False,False,False,False
+2,1209982,relation_or_spatial,man right,0.19805,0.9196530954442528,0.9639749378649963,True,False,False,False,False,False
+3,1085574,relation_or_spatial,Food in center of bottom plate,0.17108,0.7055470790990193,0.41069026632600053,True,True,False,True,True,False
+4,1724904,relation_or_spatial,guy standing on right,0.1265819999999999,0.9313119572286442,0.9253882513896118,True,False,True,False,False,False
+5,1230450,relation_or_spatial,dude in a white hat towards bottom center,0.077033,0.7469440008406358,0.3946443621658455,True,True,True,True,True,False
+6,1647059,relation_or_spatial,fridge under black,0.076388,0.9616054909377127,0.9416145116116293,True,False,True,False,False,False
+7,589858,relation_or_spatial,zebra with an ass,0.2256659999999999,0.9625080967453141,0.9445227500283694,True,False,False,False,False,False
+8,181341,relation_or_spatial,Sailboat bottom right,0.401302,0.4912945577359408,0.4368286122182942,True,True,False,True,True,False
+9,218198,relation_or_spatial,man w/hands above his head,0.3137509999999999,0.8422664840793506,0.8099177226112187,True,True,False,False,False,False
+10,151646,relation_or_spatial,motorcycle on top partly cut off,0.1890399999999999,0.9950480833454693,0.9511671886605201,True,True,False,False,False,False
+11,1059329,relation_or_spatial,left brocolli,0.638,0.6936556685594181,0.891748108123747,True,False,False,True,False,False
+12,1257559,relation_or_spatial,woman right front,0.1198289999999999,0.7423116858129146,0.8831912048049985,True,False,True,True,False,False
+13,490936,relation_or_spatial,head with black shirt,0.148174,0.8979770876935331,0.8927127021972717,True,True,True,False,False,False
+14,1355583,relation_or_spatial,car next to cab,0.0808249999999999,0.9365079151709226,0.7580045412115929,True,False,True,False,True,False
+15,2227407,relation_or_spatial,toilet seat right moon on it,0.2627879999999999,0.9794447982229108,0.9784259631705033,True,False,False,False,False,False
+16,466620,relation_or_spatial,person sitting on right in black shirt,0.0639479999999999,0.8151495907843175,0.653581285802552,True,False,True,False,True,False
+17,177307,relation_or_spatial,entire center area,0.1873710000000001,0.6610007620943417,0.8921858863884878,True,False,False,True,False,False
+18,80562,relation_or_spatial,bottle directly in front of man,0.073248,0.6317463260359992,0.8037883754126698,True,False,True,True,False,False
+19,224329,relation_or_spatial,hunched over,0.2576320000000001,0.7198124830001794,0.8946768882476585,True,False,False,True,False,False
+20,1293845,relation_or_spatial,"right side, black shirt no backpack",0.069888,0.8751615781187725,0.531619855290333,True,False,True,False,True,False
+21,1163364,relation_or_spatial,Teddy bear on left,0.452312,0.9511214800296224,0.9850903327741559,True,False,False,False,False,False
+22,53881,relation_or_spatial,right horse,0.374591,0.9821328371050981,0.994997233073977,True,False,False,False,False,False
+23,313371,relation_or_spatial,Sub on left,0.4045999999999999,0.7776806522769164,0.8836756133191294,True,False,False,True,False,False
+24,2174778,relation_or_spatial,goat left,0.0993449999999999,0.9616591199225438,0.9329966292055826,True,False,True,False,False,False
+25,589841,relation_or_spatial,Zebra on left,0.2348389999999999,0.9348551505847758,0.9499400329930184,True,False,False,False,False,False
+26,458245,relation_or_spatial,right kid,0.1926539999999999,0.7239648487952381,0.8519969436987159,True,False,False,True,False,False
+27,1569985,relation_or_spatial,pizza on the top left,0.0791699999999999,0.2900246305418719,0.14738366968785388,True,True,True,True,True,False
+28,1040469,relation_or_spatial,right bowl,0.301644,0.9919086591401554,0.991769303795451,True,False,False,False,False,False
+29,449362,relation_or_spatial,girl facing us holding red shirt,0.205907,0.852867417483276,0.7749337665291328,True,False,False,False,True,False
+30,2164676,relation_or_spatial,person on the far left,0.088736,0.9821718190632656,0.9700073575948052,True,False,True,False,False,False
+31,151614,relation_or_spatial,right bike,0.14472,0.9028777338295668,0.8643951287671551,True,False,True,False,False,False
+32,1584476,relation_or_spatial,left chair in front,0.091744,0.8536113836591787,0.7094956038796338,True,False,True,False,True,False
+33,536768,relation_or_spatial,SECOND FROM THE RIGHT,0.096555,0.8075824836274675,0.7444086279025893,True,False,True,False,True,False
+34,61505,relation_or_spatial,top left sheep,0.22295,0.7360098954680085,0.715928589930445,True,True,False,True,True,False
+35,489062,relation_or_spatial,Red arm on right,0.372254,0.8573425188743973,0.8927801651556172,True,True,False,False,False,False
+36,449835,relation_or_spatial,dude on left,0.2232,0.9735027422574674,0.9581273611808072,True,False,False,False,False,False
+37,1592392,relation_or_spatial,back of chair of man in dark shirt in front,0.050172,0.9610502220774821,0.5599746167895132,True,False,True,False,True,False
+38,1550858,relation_or_spatial,upper most left side apple,0.0994999999999999,0.9204233011283924,0.6369944906261161,True,False,True,False,True,False
+39,1070443,relation_or_spatial,Not the streak of ketchup in the very left upper corner but the next streak down.,0.1355849999999999,0.23961407408427005,0.09342056176498446,True,False,True,True,True,False
+40,1841793,part_reference,suitcase on top of cabinet,0.0929879999999999,0.8841056978897379,0.6997239393953117,True,True,True,False,True,False
+41,1149911,part_reference,top comic near front,0.088232,0.7619315178681776,0.45989188478841436,True,True,True,True,True,False
+42,1788549,part_reference,car covered in snow bottom left area,0.1207359999999999,0.9772358838840944,0.6448346805418731,True,True,True,False,True,False
+43,1060099,part_reference,bottom broccoli,0.1044099999999999,0.7812598017457164,0.5705588952092198,True,True,True,True,True,False
+44,1081739,part_reference,"bottom row, light full donut",0.0581039999999999,0.9809704492738069,0.6534850425873261,True,True,True,False,True,False
+45,1058664,part_reference,Top broccolli,0.2405779999999999,0.5276419257496088,0.45719358819785194,True,True,False,True,True,False
+46,711120,part_reference,top left bowl,0.066306,0.6738850430870487,0.737315657754336,True,True,True,True,True,False
+47,1067564,part_reference,bottom hotdog,0.503,0.9791511317013952,0.9873534950690915,True,True,False,False,False,False
+48,1549564,part_reference,Apple just right of bottom center orange,0.125763,0.979686500713961,0.7866748595559002,True,True,True,False,True,False
+49,22676,part_reference,PLANT ON BOTTOM LEFT,0.105315,0.724143720623257,0.4166564056765307,True,True,True,True,True,False
+50,1116609,part_reference,keyboard at the bottom,0.1205579999999999,0.9891261115656679,0.8141340605534501,True,True,True,False,False,False
+51,345535,part_reference,car bottom left of screen,0.0545999999999999,0.9687320374647366,0.5083288037837037,True,True,True,False,True,False
+52,63837,part_reference,top sheep,0.1275,0.7501278373632675,0.5735655414885389,True,True,True,True,True,False
+53,563996,part_reference,black shirt bottom left,0.0732269999999999,0.9803616437993571,0.8357873495428372,True,True,True,False,False,False
+54,1895141,part_reference,top spoon,0.159892,0.9374101209210892,0.8919600602596726,True,True,False,False,False,False
+55,1060710,part_reference,broccoli top left,0.0658,0.7356879659607486,0.6029882753674194,True,True,True,True,True,False
+56,2159030,part_reference,bottom box left dude,0.183232,0.6517227516623972,0.4293907829431896,True,True,False,True,True,False
+57,278892,part_reference,cow at top right,0.0812999999999999,0.9445244106028807,0.6705446259031019,True,True,True,False,True,False
+58,1080603,part_reference,doughnut bottom second from left,0.0589679999999999,0.9755529939547638,0.6470260913076923,True,True,True,False,True,False
+59,1043258,part_reference,Banana bottom right corner,0.197584,0.6398414775721976,0.44712798866232273,True,True,False,True,True,False
+60,1308939,part_reference,back of head of person at the bottom,0.1372799999999999,0.9626601923269736,0.7762167520869826,True,True,True,False,True,False
+61,1056385,part_reference,the biggest chunk of broccoli (bottom most broccoli),0.05975,0.9521122538823767,0.39523811043470847,True,True,True,False,True,False
+62,296806,part_reference,2nd tie from the top,0.150524,0.7106422681120927,0.6305017539740772,True,True,False,True,True,False
+63,296643,part_reference,very back tie on top,0.110376,0.6839856632672936,0.7233953455938725,True,True,True,True,True,False
+64,63338,part_reference,top right big sheep,0.071508,0.9634087057733128,0.8178610184293674,True,True,True,False,False,False
+65,117066,part_reference,"bottom left corner, black leather",0.170478,0.9045220088086552,0.6335454428055657,True,True,False,False,True,False
+66,378335,part_reference,white chair top right,0.044652,0.9846250887014114,0.7928864167926456,True,True,True,False,True,False
+67,1559950,part_reference,brocolli in front bottom,0.1735,0.7742625881983494,0.5340923654576731,True,True,False,True,True,False
+68,1044725,part_reference,far left banana top,0.061938,0.3189222400351659,0.08931263928227351,True,True,True,True,True,False
+69,1162914,part_reference,bear on top thats cut off,0.130725,0.9842696847103731,0.8643443744020564,True,True,True,False,False,False
+70,1245668,small_or_medium_predicted,The lady in red.,0.087362,0.9244315384949278,0.7352650227150703,False,False,True,False,True,False
+71,192052,small_or_medium_predicted,black shirt,0.0814199999999999,0.7588446705201555,0.7307986213245187,False,False,True,True,True,False
+72,165992,small_or_medium_predicted,first bus in middle land,0.0681119999999999,0.9122790958803269,0.49077191987087687,True,False,True,False,True,False
+73,1728995,small_or_medium_predicted,blue jeans man on the right,0.05928,0.9613786660213182,0.8657189155156079,True,False,True,False,False,False
+74,2215413,small_or_medium_predicted,beer in middle,0.095613,0.9170505045751005,0.8270676009388062,True,False,True,False,False,False
+75,450123,small_or_medium_predicted,man black shirt,0.12369,0.7617078593165552,0.846259831334747,False,False,True,True,False,False
+76,678242,small_or_medium_predicted,tall glass,0.057834,0.634484658001923,0.8329220546160124,False,False,True,True,False,False
+77,1746450,small_or_medium_predicted,orange shirt,0.123072,0.7928048829314236,0.778237590605435,False,False,True,True,True,False
+78,57026,small_or_medium_predicted,right horse butt,0.1388379999999999,0.9629048708788952,0.8566712532304059,True,False,True,False,False,False
+79,480908,small_or_medium_predicted,little girl,0.1002839999999999,0.9711839227011432,0.8960001408660482,False,False,True,False,False,True
+80,399867,small_or_medium_predicted,bottom right white box truck,0.0185999999999999,0.5939652670975529,0.12673070380742882,True,True,True,True,True,False
+81,1595524,small_or_medium_predicted,chair under the guy on the right,0.0768,0.9513154415960922,0.6081575769561129,True,False,True,False,True,False
+82,710670,small_or_medium_predicted,top right bowl,0.0659999999999999,0.961043063926298,0.7677719920417408,True,True,True,False,True,False
+83,484976,small_or_medium_predicted,bo legged guy in center,0.097968,0.7304879062510498,0.5455070429806298,True,False,True,True,True,False
+84,449652,small_or_medium_predicted,black on black dude left,0.075145,0.7102732249028139,0.8171587200168281,True,False,True,True,False,False
+85,534887,small_or_medium_predicted,person on left side,0.123554,0.9924937619257301,0.985193857639978,True,False,True,False,False,False
+86,541166,small_or_medium_predicted,girl right,0.127452,0.98248081909641,0.9876141158911178,True,False,True,False,False,False
+87,113548,small_or_medium_predicted,left bottom,0.112302,0.7688891019075367,0.5880917503069889,True,True,True,True,True,False
+88,592709,small_or_medium_predicted,left zebra,0.132384,0.7392089631461922,0.8500420520091131,True,False,True,True,False,False
+89,1544047,small_or_medium_predicted,left top banana,0.068052,0.6250939624571388,0.5907650070361485,True,True,True,True,True,False
+90,476427,small_or_medium_predicted,center kid,0.1079259999999999,0.6589245235761172,0.8026031804922283,True,False,True,True,False,False
+91,374138,small_or_medium_predicted,blue chair against the island,0.066144,0.6580392465746012,0.4978308600141985,False,False,True,True,True,False
+92,52541,small_or_medium_predicted,right,0.140904,0.7482387200932661,0.8606317981503616,True,False,True,True,False,False
+93,1241820,small_or_medium_predicted,face bottom right corner,0.070587,0.5364694922813737,0.15823136443390082,True,True,True,True,True,False
+94,1577703,small_or_medium_predicted,top piece of bread,0.1021439999999999,0.9602817780803554,0.7177191487699336,True,True,True,False,True,False
+95,1057076,small_or_medium_predicted,left bunch of broccoli,0.0643499999999999,0.6148446743065207,0.5737126803108595,True,False,True,True,True,False
+96,561742,small_or_medium_predicted,guy far left,0.093248,0.8775868406154788,0.9036248108352196,True,False,True,False,False,False
+97,281181,small_or_medium_predicted,top left umbrella,0.064655,0.9507835990575988,0.648792953382212,True,True,True,False,True,False
+98,1896051,small_or_medium_predicted,Right white spoon,0.04878,0.950470206130855,0.7940490677738966,True,False,True,False,True,False
+99,1044236,small_or_medium_predicted,BUNCH BANANA ON LEFT,0.102399,0.9030916911309574,0.7347891773343173,True,False,True,False,True,False
+100,35668,small_or_medium_predicted,mid monitor,0.05238,0.9728478474236858,0.708167104003787,False,False,True,False,True,False
+101,169136,small_or_medium_predicted,right bus,0.091676,0.9725559881524943,0.9347238383006004,True,False,True,False,False,False
+102,1290128,small_or_medium_predicted,Blue and white striped shirt,0.0677599999999999,0.7544697181963833,0.597489436649922,False,False,True,True,True,False
+103,2111066,small_or_medium_predicted,item on right,0.131985,0.603551459019358,0.7191002811645436,True,False,True,True,True,False
+104,97874,small_or_medium_predicted,couch behind guy,0.099258,0.3533764328077763,0.3719355578676103,True,False,True,True,True,False
+105,446992,high_interface_disagreement,man,0.4588960000000001,0.796847945221842,0.9430705503385372,False,False,False,True,False,False
+106,1217187,high_interface_disagreement,catcher,0.1064999999999999,0.754921414287745,0.7722312837496688,False,False,True,True,True,False
+107,1709553,high_interface_disagreement,person hat right,0.0926279999999999,0.733615050367467,0.5288262692630828,True,False,True,True,True,False
+108,1045777,high_interface_disagreement,front left banana,0.1521059999999999,0.6428115239100679,0.77600915838571,True,False,False,True,True,False
+109,231630,high_interface_disagreement,lady upper left,0.05418,0.5983342937154261,0.436932736841061,True,False,True,True,True,False
+110,442179,high_interface_disagreement,yeah haha number 33,0.5518799999999999,0.7143044967437786,0.691108705083944,False,False,False,True,True,False
+111,1670658,high_interface_disagreement,vase in back on left with swirly orange pattern and one flower in it,0.0804079999999999,0.31221282357810765,0.24378583840172466,True,False,True,True,True,False
+112,1242292,high_interface_disagreement,red shirt,0.229848,0.7555636506939705,0.8192939783758942,False,False,False,True,False,False
+113,186853,high_interface_disagreement,guy,0.586976,0.7436861082949388,0.8830568343848131,False,False,False,True,False,False
+114,224308,high_interface_disagreement,"man's head on the left, with hat on",0.381024,0.6754550882460809,0.6485575322035694,True,True,False,True,True,False
+115,115684,high_interface_disagreement,pink flowed couch,0.0895589999999999,0.7950741588150614,0.5358237529458801,False,False,True,True,True,False
+116,471373,high_interface_disagreement,28,0.0503749999999999,0.7610500880375999,0.6957803113180279,False,False,True,True,True,False
+117,207519,high_interface_disagreement,The bald guy,0.4014719999999999,0.7467211870136533,0.6765558358383581,False,False,False,True,True,False
+118,479433,high_interface_disagreement,Male tennis player,0.406587,0.7513535154585944,0.7946129044440814,False,False,False,True,True,False
+119,1564998,high_interface_disagreement,left carrot,0.1275,0.6037628555324528,0.6822436847403539,True,False,True,True,True,False
+120,466457,high_interface_disagreement,arms that are stretched out,0.550712,0.7575526702625675,0.6426746631182955,False,False,False,True,True,False
+121,577606,high_interface_disagreement,fence that lady is leaning on,1.0,0.5232916323861428,0.8954417408273564,True,False,False,True,False,False
+122,1983722,high_interface_disagreement,FAR FIGHT BOTTOM FRIDGE,0.093886,0.5613446765118935,0.45430695711346436,True,True,True,True,True,False
+123,590038,high_interface_disagreement,front zebra,0.361319,0.6998732684809673,0.8934278291231359,True,False,False,True,False,False
+124,598488,high_interface_disagreement,giraffe front,0.57618,0.7027098235954422,0.8220601628672656,True,False,False,True,False,False
+125,1294018,high_interface_disagreement,man with glasses and red tie,0.1031699999999999,0.674222534842318,0.7628499748806217,True,False,True,True,True,False
+126,1081537,high_interface_disagreement,right white,0.0786899999999999,0.33048232717106885,0.4009465917357316,True,False,True,True,True,False
+127,1252081,high_interface_disagreement,blue shirt sad man,0.1558199999999999,0.5975088008146312,0.5460392036943316,False,False,False,True,True,False
+128,671266,high_interface_disagreement,the empty drink galss near the shells,0.0972,0.7410399238151337,0.8793497912463767,True,False,True,True,False,False
+129,1256205,high_interface_disagreement,back girl in purple,0.0855139999999999,0.4430460513530413,0.22912855561217982,False,False,True,True,True,False
+130,1130135,high_interface_disagreement,leftmost sink,0.114256,0.8009050200352776,0.6509552170580067,False,False,True,True,True,False
+131,491130,high_interface_disagreement,batter,0.2768919999999999,0.7499065086302392,0.9122509030452562,False,False,False,True,False,False
+132,1412320,high_interface_disagreement,front zebra,0.3385829999999999,0.7619972508484137,0.9511636044659038,True,False,False,True,False,False
+133,152875,high_interface_disagreement,"leftmost bike, partially covered by front bike",0.127491,0.6002228232465399,0.5208124556300736,True,False,True,True,True,False
+134,232513,high_interface_disagreement,bottom center white hat,0.115735,0.6782115618676393,0.4764043601351027,True,True,True,True,True,False
+135,1425148,high_interface_disagreement,umbrella near  cam mid one,0.372853,0.6087850170210571,0.5453996715820989,True,False,False,True,True,False
+136,1226988,high_interface_disagreement,person in front red hat and goggles,0.2824979999999999,0.707192193294046,0.7760980937641265,True,False,False,True,True,False
+137,499513,high_interface_disagreement,left person,0.132888,0.7880293354132721,0.8986173311206563,True,False,True,True,False,False
+138,451104,high_interface_disagreement,red shirt,0.253748,0.7492794127420168,0.9106105315881651,False,False,False,True,False,False
+139,1266330,high_interface_disagreement,guy left white/blue shirt,0.106439,0.78588161960195,0.8501170127127454,True,False,True,True,False,False
+140,2151037,low_router_reliability,girl pink,0.0812349999999999,0.9455566824560866,0.7660458960298694,False,False,True,False,True,False
+141,2189154,low_router_reliability,biggest glazed donut,0.0770179999999999,0.26599631911558963,0.23791093331207983,False,False,True,True,True,False
+142,445022,low_router_reliability,guy in red,0.910016,0.7097568732268112,0.7028976866881013,False,False,False,True,True,False
+143,434937,low_router_reliability,WOMAN IN FRONT,0.120726,0.8385554217710902,0.7051650780104292,True,False,True,False,True,False
+144,1313484,low_router_reliability,guy in plaid,0.1714999999999999,0.6797023975239088,0.6507096299964835,False,False,False,True,True,False
+145,213595,low_router_reliability,"the chinese lady that's apparently a fan of ""The office""",0.25662,0.6925023545993558,0.4481636785486946,False,False,False,True,True,False
+146,1955599,low_router_reliability,vase,0.0155799999999999,0.8736441674754369,0.6698651606737913,False,False,True,False,True,False
+147,1983284,low_router_reliability,top box to right of black box,0.0488,0.9760801134125268,0.7180587854367414,True,True,True,False,True,False
+148,1821100,low_router_reliability,elephant on right,0.139108,0.8731031423477251,0.7789323694171432,True,False,True,False,True,False
+149,670661,low_router_reliability,cup left,0.1002999999999999,0.52688995585609,0.6371944359625944,True,False,True,True,True,False
+150,549650,low_router_reliability,man bottom white shirt,0.12753,0.8247314492090962,0.7424310470287194,True,True,True,False,True,False
+151,565155,low_router_reliability,woman back tou,0.145432,0.5824749935785299,0.6722209213968133,False,False,True,True,True,False
+152,1067434,low_router_reliability,Hot dog beside the dirnk,0.1694879999999999,0.7463642470858238,0.5690927993319831,True,False,False,True,True,False
+153,1967686,low_router_reliability,brown guitar toilet seat,0.093884,0.678971453018216,0.7422155972723447,False,False,True,True,True,False
+154,1599271,low_router_reliability,empty chair next to man,0.0506159999999999,0.6272132978179115,0.7123513504855709,True,False,True,True,True,False
+155,207018,low_router_reliability,M's shirt,0.081144,0.7426558293987326,0.4659947383108218,False,False,True,True,True,False
+156,1398086,low_router_reliability,sixth  bleacher from the bottom (count the one she's sittign on),0.062,0.22364250132549543,0.2531078539569447,True,True,True,True,True,False
+157,1242701,low_router_reliability,bride throwing boquet,0.0588039999999999,0.7598978115567017,0.4795960908819776,False,False,True,True,True,False
+158,1566890,low_router_reliability,carrot that is second from the right,0.1173899999999999,0.9329818999397924,0.7647560036941936,True,False,True,False,True,False
+159,458356,low_router_reliability,person above laptop,0.077616,0.6712300671670977,0.7851600392599107,True,False,True,True,True,False
+160,494060,low_router_reliability,man in yellow shirt,0.100497,0.8987157414179188,0.6376872251322663,False,False,True,False,True,False
+161,675002,low_router_reliability,A GLASS  ON A TABLE,0.0887499999999999,0.6440320445837688,0.5742801730552599,True,False,True,True,True,False
+162,1327075,low_router_reliability,guy front gray suit left,0.113544,0.8678454605112979,0.7067414526065793,True,False,True,False,True,False
+163,217025,low_router_reliability,PERSON IN BACK,0.094466,0.8079743363800852,0.5199188176409378,False,False,True,False,True,False
+164,480380,low_router_reliability,guy on the left in back.,0.0524,0.798722051060331,0.6952801333011925,True,False,True,True,True,False
+165,1683478,low_router_reliability,lady on left on back in white,0.09,0.6925824414318673,0.7556861689254474,True,False,True,True,True,False
+166,664074,low_router_reliability,wineglass closer to woman,0.10503,0.952242538501274,0.6688235172013659,False,False,True,False,True,False
+167,1081455,low_router_reliability,The chocolate covered donut in the middle.,0.05043,0.9370120770993433,0.3189417063692122,True,False,True,False,True,False
+168,1333042,low_router_reliability,the girl about to get hit by bat in face,0.1455299999999999,0.7289984702900514,0.2313657738438494,False,False,True,True,True,False
+169,1089083,low_router_reliability,gray nearest us,0.4680000000000001,0.4116495726495726,0.3112031470104379,False,False,False,True,True,False
+170,486974,easy_proxy_control,woman,0.867,0.9901602228388393,0.9984732918171568,False,False,False,False,False,True
+171,1619639,easy_proxy_control,bowl of brocolli,1.0,0.8777981674302373,0.9004799454287425,False,False,False,False,False,True
+172,426208,easy_proxy_control,woman,0.27328,0.831428848866635,0.9166453653782008,False,False,False,False,False,True
+173,426582,easy_proxy_control,girl,0.195952,0.9388444404126515,0.9495045456977556,False,False,False,False,False,True
+174,1248057,easy_proxy_control,man in black white shorts,0.1616799999999999,0.9569091074339037,0.9429272969701987,False,False,False,False,False,True
+175,487758,easy_proxy_control,woman,0.49737,0.8520542204188264,0.9426760165340108,False,False,False,False,False,True
+176,195141,easy_proxy_control,Lady,0.32414,0.9221644272782632,0.9653626624164308,False,False,False,False,False,True
+177,1718643,easy_proxy_control,Arms up!,0.3644159999999999,0.9876531722504952,0.9869723384910074,False,False,False,False,False,True
+178,190163,easy_proxy_control,lady,0.2574999999999999,0.9811803087885247,0.9742670776079282,False,False,False,False,False,True
+179,665587,easy_proxy_control,rt wine glass w/red wine,0.0720299999999999,0.9837015171885393,0.8883445304876458,False,False,True,False,False,True
+180,466336,easy_proxy_control,lady in purpl asian,0.183048,0.9867996671177912,0.9447361763021748,False,False,False,False,False,True
+181,2229114,easy_proxy_control,girl brushing teeth,0.312568,0.9839399063741465,0.9843522513799141,False,False,False,False,False,True
+182,457813,easy_proxy_control,hitter,0.2692,0.8837132388446525,0.9203800782312134,False,False,False,False,False,True
+183,153110,easy_proxy_control,main bike,0.69888,0.9490653643629443,0.9948927051352644,False,False,False,False,False,True
+184,111686,easy_proxy_control,black couch,0.180712,0.979174633801192,0.9415412298701172,False,False,False,False,False,True
+185,2153586,easy_proxy_control,mom skier,0.295656,0.9685524120333515,0.9826155051288173,False,False,False,False,False,True
+186,445034,easy_proxy_control,man in blue,0.2398049999999999,0.9640119529788009,0.9791687677263146,False,False,False,False,False,True
+187,72597,easy_proxy_control,BROWN COW,0.336958,0.9622857411342729,0.977941934161163,False,False,False,False,False,True
+188,712048,easy_proxy_control,red sauce,0.094794,0.9825211761380577,0.9264748414109961,False,False,True,False,False,True
+189,184307,easy_proxy_control,boy in yellow shirt,0.160356,0.9367422615027372,0.9008500963115745,False,False,False,False,False,True
+190,439841,easy_proxy_control,woman rightmost,0.1563749999999999,0.9488680962064101,0.9609203954349198,False,False,False,False,False,True
+191,283370,easy_proxy_control,the purple umbrella,0.34221,0.8462845143044229,0.9709538662796918,False,False,False,False,False,True
+192,474765,easy_proxy_control,woman,0.21463,0.9517004734472536,0.986150596065615,False,False,False,False,False,True
+193,469475,easy_proxy_control,green woman,0.3322319999999999,0.982036477356933,0.9932287537884674,False,False,False,False,False,True
+194,57671,easy_proxy_control,white horse,0.15498,0.9629158070513455,0.9648613037270942,False,False,False,False,False,True
+195,496100,easy_proxy_control,pink sweater,0.495792,0.8480075019811711,0.9309818429436038,False,False,False,False,False,True
+196,152563,easy_proxy_control,first bike,0.316712,0.9301360417979229,0.9183998873719009,False,False,False,False,False,True
+197,1039707,easy_proxy_control,plate of rice,0.3174399999999999,0.9800181247858477,0.9650909877931158,False,False,False,False,False,True
+198,2175053,easy_proxy_control,elephant,0.6005119999999999,0.9771472472556058,0.9973426996507877,False,False,False,False,False,True
+199,450483,easy_proxy_control,kid,0.4066840000000001,0.9631977011958244,0.9823716215302492,False,False,False,False,False,True

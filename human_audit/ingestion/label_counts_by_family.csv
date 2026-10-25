@@ -1,0 +1,16 @@
+dataset,effective_label,count
+flickr30k_entities,incorrect_gt_box,2
+flickr30k_entities,valid_unambiguous,48
+gqa,cannot_determine,1
+gqa,corrupted_image_query,2
+gqa,duplicate_near_duplicate,2
+gqa,incorrect_gt_box,3
+gqa,invalid_target_query_conversion,1
+gqa,valid_unambiguous,91
+visual7w,cannot_determine,1
+visual7w,corrupted_image_query,2
+visual7w,incorrect_gt_box,4
+visual7w,valid_unambiguous,93
+visual_genome,corrupted_image_query,1
+visual_genome,duplicate_near_duplicate,3
+visual_genome,valid_unambiguous,46

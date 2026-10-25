@@ -1,0 +1,9 @@
+model_key,interface,unique_best_n,unique_best_fraction
+qwen3vl4b,native,263,0.263
+qwen3vl4b,norm_json,228,0.228
+qwen3vl4b,tuple,247,0.247
+qwen3vl4b,tie,262,0.262
+internvl35_4b,native,782,0.782
+internvl35_4b,norm_json,73,0.073
+internvl35_4b,tuple,104,0.104
+internvl35_4b,tie,41,0.041

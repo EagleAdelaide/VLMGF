@@ -1,0 +1,228 @@
+{
+  "n_test": 500,
+  "n_calib": 200,
+  "n_test_tasks": 83,
+  "n_test_websites": 10,
+  "test_failure_rate": 0.656,
+  "primary": {
+    "comparison": "AUROC(sg_code_default) - AUROC(token_only)",
+    "point": -0.059132161089052726,
+    "lo": -0.11001656759073812,
+    "hi": -0.006512478116436228,
+    "difference_verdict": "SINGLE_OUTPUT_BETTER",
+    "noninferiority": "NOT_TESTED"
+  },
+  "bootstrap": {
+    "n_requested": 2000,
+    "n_effective": 2000,
+    "n_degenerate": 0,
+    "seed": 20261009,
+    "unit": "task (annotation_id), paired across methods"
+  },
+  "point_metrics": {
+    "sg_code_default": {
+      "auroc": 0.727063244469654,
+      "aurc": 0.4735967621416342,
+      "risk_at_50": 0.524,
+      "caught_at_20": 87,
+      "k20": 100
+    },
+    "sg_paper_params": {
+      "auroc": 0.7645171582529778,
+      "aurc": 0.43955055199265014,
+      "risk_at_50": 0.5,
+      "caught_at_20": 88,
+      "k20": 100
+    },
+    "token_only": {
+      "auroc": 0.7861954055587067,
+      "aurc": 0.44561703748163867,
+      "risk_at_50": 0.472,
+      "caught_at_20": 94,
+      "k20": 100
+    },
+    "raw_coord_entropy": {
+      "auroc": 0.7870994044242768,
+      "aurc": 0.4495787167779966,
+      "risk_at_50": 0.468,
+      "caught_at_20": 89,
+      "k20": 100
+    },
+    "geom_token": {
+      "auroc": 0.8048957742484402,
+      "aurc": 0.42713990468195095,
+      "risk_at_50": 0.456,
+      "caught_at_20": 96,
+      "k20": 100
+    },
+    "geom_gbdt": {
+      "auroc": 0.7136096142938173,
+      "aurc": 0.500969607789522,
+      "risk_at_50": 0.516,
+      "caught_at_20": 84,
+      "k20": 100
+    },
+    "full_logistic": {
+      "auroc": 0.7094795802609188,
+      "aurc": 0.48711982403366993,
+      "risk_at_50": 0.52,
+      "caught_at_20": 82,
+      "k20": 100
+    }
+  },
+  "frozen_threshold_50pct_calibration": {
+    "sg_code_default": {
+      "tau": 0.6340590986337766,
+      "calib_coverage": 0.5,
+      "calib_accepted_risk": 0.36,
+      "test_coverage": 0.314,
+      "test_accepted_risk": 0.4394904458598726
+    },
+    "sg_paper_params": {
+      "tau": 0.7542721397987979,
+      "calib_coverage": 0.5,
+      "calib_accepted_risk": 0.32,
+      "test_coverage": 0.312,
+      "test_accepted_risk": 0.3782051282051282
+    },
+    "token_only": {
+      "tau": 0.5406961165368179,
+      "calib_coverage": 0.5,
+      "calib_accepted_risk": 0.31,
+      "test_coverage": 0.342,
+      "test_accepted_risk": 0.40350877192982454
+    },
+    "raw_coord_entropy": {
+      "tau": 1.3419256168417633,
+      "calib_coverage": 0.505,
+      "calib_accepted_risk": 0.3069306930693069,
+      "test_coverage": 0.33,
+      "test_accepted_risk": 0.3575757575757576
+    },
+    "geom_token": {
+      "tau": 0.4984267818903749,
+      "calib_coverage": 0.5,
+      "calib_accepted_risk": 0.31,
+      "test_coverage": 0.344,
+      "test_accepted_risk": 0.3488372093023256
+    },
+    "geom_gbdt": {
+      "tau": 0.5565173207455881,
+      "calib_coverage": 0.5,
+      "calib_accepted_risk": 0.44,
+      "test_coverage": 0.464,
+      "test_accepted_risk": 0.5
+    },
+    "full_logistic": {
+      "tau": 0.5710496676531669,
+      "calib_coverage": 0.505,
+      "calib_accepted_risk": 0.504950495049505,
+      "test_coverage": 0.43,
+      "test_accepted_risk": 0.4930232558139535
+    }
+  },
+  "deltas": {
+    "sg_code_default-minus-token_only": {
+      "point": -0.059132161089052726,
+      "lo": -0.11001656759073812,
+      "hi": -0.006512478116436228
+    },
+    "sg_paper_params-minus-token_only": {
+      "point": -0.02167824730572887,
+      "lo": -0.0680852405897461,
+      "hi": 0.022472118755354268
+    },
+    "raw_coord_entropy-minus-token_only": {
+      "point": 0.0009039988655701325,
+      "lo": -0.02443262716981336,
+      "hi": 0.024784235789522716
+    },
+    "geom_token-minus-token_only": {
+      "point": 0.01870036868973346,
+      "lo": -0.0005923402064901466,
+      "hi": 0.038086981307227215
+    },
+    "geom_gbdt-minus-token_only": {
+      "point": -0.0725857912648894,
+      "lo": -0.1291451739703794,
+      "hi": -0.021513748619429847
+    },
+    "full_logistic-minus-token_only": {
+      "point": -0.07671582529778787,
+      "lo": -0.12896694786999485,
+      "hi": -0.027054022594700917
+    },
+    "sg_code_default-minus-raw_coord_entropy": {
+      "point": -0.06003615995462286,
+      "lo": -0.1152733349680136,
+      "hi": -0.003908840528341251
+    },
+    "sg_code_default-minus-geom_token": {
+      "point": -0.07783252977878619,
+      "lo": -0.12751079145384517,
+      "hi": -0.025123418703969586
+    },
+    "sg_code_default-minus-geom_gbdt": {
+      "point": 0.013453630175836673,
+      "lo": -0.040859523766058316,
+      "hi": 0.07530391616061387
+    },
+    "sg_code_default-minus-full_logistic": {
+      "point": 0.01758366420873514,
+      "lo": -0.05061072582826878,
+      "hi": 0.08802377326852626
+    }
+  },
+  "auroc_ci": {
+    "sg_code_default": [
+      0.6701176076675085,
+      0.7810820609026119
+    ],
+    "sg_paper_params": [
+      0.7092668146351703,
+      0.8152993200835347
+    ],
+    "token_only": [
+      0.7385646414901875,
+      0.8312011208253391
+    ],
+    "raw_coord_entropy": [
+      0.7357848018607628,
+      0.8347393899929569
+    ],
+    "geom_token": [
+      0.7573884269965893,
+      0.8498324264571078
+    ],
+    "geom_gbdt": [
+      0.6626540306050731,
+      0.7608194817516155
+    ],
+    "full_logistic": [
+      0.6572446559431996,
+      0.7624373320749999
+    ]
+  },
+  "fit_labels_used": {
+    "token_only": 510,
+    "raw_coord_entropy": 0,
+    "geom_token": 510,
+    "geom_gbdt": 510,
+    "full_logistic": 510,
+    "sg_code_default": 0,
+    "sg_paper_params": 0
+  },
+  "calibration_labels_for_thresholds": 200,
+  "sampling_quality": {
+    "samples_attempted": 7000,
+    "samples_valid": 6997,
+    "valid_rate": 0.9995714285714286,
+    "inputs_excluded_after_retry": 0,
+    "test_inputs_all_valid": 498,
+    "test_inputs_zero_valid": 0,
+    "sampling_modes": {
+      "batched10": 700
+    },
+    "test_share_single_region": 0.106
+  }
+}

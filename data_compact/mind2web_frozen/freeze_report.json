@@ -1,0 +1,34 @@
+{
+  "fit": {
+    "actions": 510,
+    "tasks": 72,
+    "websites": 51
+  },
+  "calib": {
+    "actions": 200,
+    "tasks": 29,
+    "websites": 23
+  },
+  "test_website": {
+    "actions": 852,
+    "tasks": 141,
+    "websites": 10
+  },
+  "test_domain": {
+    "actions": 504,
+    "tasks": 101,
+    "websites": 44
+  },
+  "seed": 20261009,
+  "crop_h": 4096,
+  "exclusion_counts": {
+    "empty_target_text": 1241,
+    "no_pos_candidate": 679,
+    "below_fold_4096": 118,
+    "no_rect": 77,
+    "out_of_bounds": 19,
+    "degenerate": 11,
+    "tiny_lt9px": 11,
+    "no_screenshot": 10
+  }
+}

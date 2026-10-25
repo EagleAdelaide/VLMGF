@@ -1,0 +1,4 @@
+split,official_actions,excluded_rows,eligible,rows_with_multiple_reasons,atomic_reason_sum,atomic_no_pos_candidate,atomic_empty_target_text,atomic_below_fold_4096,atomic_no_rect,atomic_degenerate,atomic_tiny_lt9px,atomic_out_of_bounds,exclusive_no_pos_candidate,exclusive_empty_target_text,exclusive_below_fold_4096,exclusive_no_rect,exclusive_degenerate,exclusive_out_of_bounds,atomic_no_screenshot,exclusive_no_screenshot
+train,7775,1056,6719,275,1331,413,782,71,29,11.0,11.0,14,413,522,67,29,11.0,14,,
+test_website,1019,167,852,41,208,44,138,11,13,,,2,44,97,11,13,,2,,
+test_domain,4060,496,3564,131,627,222,321,36,35,,,3,222,193,33,35,,3,10.0,10.0

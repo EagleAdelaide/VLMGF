@@ -1,0 +1,5 @@
+model,split,n,n_fail,websites,tasks,prevalence,random_c20_E,geom_gbdt_auroc,geom_gbdt_c20,geom_gbdt_r50,token_logistic_auroc,token_logistic_c20,token_logistic_r50,geom_token_logistic_auroc,geom_token_logistic_c20,geom_token_logistic_r50,geom_token_gbdt_auroc,geom_token_gbdt_c20,geom_token_gbdt_r50,raw_coord_mean_entropy_auroc,raw_coord_mean_entropy_c20,raw_coord_mean_entropy_r50
+internvl35_4b,test_website,852,541,10,141,0.635,108.6,0.721,146,0.493,0.801,163,0.441,0.812,162,0.427,0.819,163,0.43,0.789,154,0.444
+internvl35_4b,test_domain,504,284,44,101,0.5635,56.9,0.669,75,0.448,0.778,85,0.353,0.806,84,0.329,0.804,88,0.353,0.739,82,0.389
+qwen3vl4b,test_website,852,188,10,141,0.2207,37.7,0.616,65,0.178,0.695,70,0.131,0.71,72,0.106,0.686,75,0.141,0.671,64,0.143
+qwen3vl4b,test_domain,504,81,44,101,0.1607,16.2,0.691,34,0.099,0.747,37,0.079,0.751,41,0.075,0.763,39,0.06,0.707,30,0.071

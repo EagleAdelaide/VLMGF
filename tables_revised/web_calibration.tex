@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Model / head & Brier & Fit const. & Test oracle & ECE$_{10}$ \\
+\midrule
+\multicolumn{5}{@{}l}{Qwen3-VL-4B ($n=852$)} \\
+Token-only logistic & 0.1547 & 0.1724 & 0.1720 & 0.0400 \\
+Geom.+token logistic & 0.1546 & 0.1724 & 0.1720 & 0.0580 \\
+Geometry GBDT & 0.1736 & 0.1724 & 0.1720 & 0.0754 \\
+\multicolumn{5}{@{}l}{InternVL3.5-4B ($n=852$)} \\
+Token-only logistic & 0.1736 & 0.2379 & 0.2318 & 0.0609 \\
+Geom.+token logistic & 0.1703 & 0.2379 & 0.2318 & 0.0489 \\
+Geometry GBDT & 0.2055 & 0.2379 & 0.2318 & 0.0797 \\
+\bottomrule
+\end{tabular}

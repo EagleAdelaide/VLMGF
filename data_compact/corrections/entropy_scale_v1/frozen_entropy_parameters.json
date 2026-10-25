@@ -1,0 +1,22 @@
+{
+  "qwen3vl4b": {
+    "fit_imputation_median": 0.7009783958172193,
+    "calibration_threshold": 0.670317444878189,
+    "n_fit": 510,
+    "n_calibration": 200,
+    "accept": "raw_entropy_failure_score <= calibration_threshold",
+    "score_units": "coordinate-token entropy, natural log units; not a probability",
+    "legacy_score_sha256": "c85e44a29676b0dd7f4f0c98d64eca3a014dd06c3799c333c84aaa6feb0e544d",
+    "raw_features_sha256": "75109419246b4f98b78bf86dc9d750c0f2f6d3eff39bda1d7da58f6f956f420c"
+  },
+  "internvl35_4b": {
+    "fit_imputation_median": 1.4012710257010026,
+    "calibration_threshold": 1.3419256168417633,
+    "n_fit": 510,
+    "n_calibration": 200,
+    "accept": "raw_entropy_failure_score <= calibration_threshold",
+    "score_units": "coordinate-token entropy, natural log units; not a probability",
+    "legacy_score_sha256": "1dfbed4913a56cc441eee16142915cdc69baeebaa375ffb2dabdb4e0705adf70",
+    "raw_features_sha256": "75109419246b4f98b78bf86dc9d750c0f2f6d3eff39bda1d7da58f6f956f420c"
+  }
+}

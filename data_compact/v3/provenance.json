@@ -1,0 +1,20 @@
+{
+  "exploratory": true,
+  "seed": 20261021,
+  "bootstrap_draws": 2000,
+  "fractions": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "tie_rule": "sha256(VLMGF-V3-20261021|sample_id)",
+  "fitted_seed": 20261009,
+  "n_fit": 510,
+  "no_test_fitting": true,
+  "intervals": "pointwise paired task-cluster percentile 95%; frozen heads",
+  "input_sha256": {
+    "data_compact/e3_web/per_row_web.parquet": "75109419246b4f98b78bf86dc9d750c0f2f6d3eff39bda1d7da58f6f956f420c",
+    "data_compact/final_audit/per_row_scores_qwen3vl4b.parquet": "c85e44a29676b0dd7f4f0c98d64eca3a014dd06c3799c333c84aaa6feb0e544d",
+    "data_compact/final_audit/per_row_scores_internvl35_4b.parquet": "1dfbed4913a56cc441eee16142915cdc69baeebaa375ffb2dabdb4e0705adf70"
+  }
+}

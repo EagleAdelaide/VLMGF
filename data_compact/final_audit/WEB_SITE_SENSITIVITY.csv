@@ -1,0 +1,45 @@
+model,head,website,n,tasks,prevalence,auroc
+internvl35_4b,token_logistic,bestbuy,135,16.0,0.593,0.846
+internvl35_4b,token_logistic,cars,90,13.0,0.522,0.763
+internvl35_4b,token_logistic,macys,77,11.0,0.675,0.751
+internvl35_4b,token_logistic,nba,50,11.0,0.76,0.932
+internvl35_4b,token_logistic,recreation.gov,65,13.0,0.538,0.737
+internvl35_4b,token_logistic,shopping.google,74,15.0,0.905,0.71
+internvl35_4b,token_logistic,stubhub,75,15.0,0.547,0.886
+internvl35_4b,token_logistic,tiktok.music,62,15.0,0.726,0.871
+internvl35_4b,token_logistic,trip,71,12.0,0.662,0.867
+internvl35_4b,token_logistic,tripadvisor,153,20.0,0.582,0.644
+internvl35_4b,token_logistic,__LOO_AUROC__,10,,,min 0.792 / med 0.796 / max 0.832
+internvl35_4b,geom_token_logistic,bestbuy,135,16.0,0.593,0.84
+internvl35_4b,geom_token_logistic,cars,90,13.0,0.522,0.786
+internvl35_4b,geom_token_logistic,macys,77,11.0,0.675,0.772
+internvl35_4b,geom_token_logistic,nba,50,11.0,0.76,0.908
+internvl35_4b,geom_token_logistic,recreation.gov,65,13.0,0.538,0.75
+internvl35_4b,geom_token_logistic,shopping.google,74,15.0,0.905,0.712
+internvl35_4b,geom_token_logistic,stubhub,75,15.0,0.547,0.841
+internvl35_4b,geom_token_logistic,tiktok.music,62,15.0,0.726,0.954
+internvl35_4b,geom_token_logistic,trip,71,12.0,0.662,0.864
+internvl35_4b,geom_token_logistic,tripadvisor,153,20.0,0.582,0.718
+internvl35_4b,geom_token_logistic,__LOO_AUROC__,10,,,min 0.800 / med 0.811 / max 0.835
+qwen3vl4b,token_logistic,bestbuy,135,16.0,0.252,0.769
+qwen3vl4b,token_logistic,cars,90,13.0,0.167,0.735
+qwen3vl4b,token_logistic,macys,77,11.0,0.104,0.415
+qwen3vl4b,token_logistic,nba,50,11.0,0.16,0.854
+qwen3vl4b,token_logistic,recreation.gov,65,13.0,0.2,0.731
+qwen3vl4b,token_logistic,shopping.google,74,15.0,0.338,0.732
+qwen3vl4b,token_logistic,stubhub,75,15.0,0.213,0.783
+qwen3vl4b,token_logistic,tiktok.music,62,15.0,0.339,0.619
+qwen3vl4b,token_logistic,trip,71,12.0,0.31,0.691
+qwen3vl4b,token_logistic,tripadvisor,153,20.0,0.17,0.614
+qwen3vl4b,token_logistic,__LOO_AUROC__,10,,,min 0.684 / med 0.692 / max 0.710
+qwen3vl4b,geom_token_logistic,bestbuy,135,16.0,0.252,0.736
+qwen3vl4b,geom_token_logistic,cars,90,13.0,0.167,0.672
+qwen3vl4b,geom_token_logistic,macys,77,11.0,0.104,0.518
+qwen3vl4b,geom_token_logistic,nba,50,11.0,0.16,0.836
+qwen3vl4b,geom_token_logistic,recreation.gov,65,13.0,0.2,0.713
+qwen3vl4b,geom_token_logistic,shopping.google,74,15.0,0.338,0.71
+qwen3vl4b,geom_token_logistic,stubhub,75,15.0,0.213,0.631
+qwen3vl4b,geom_token_logistic,tiktok.music,62,15.0,0.339,0.678
+qwen3vl4b,geom_token_logistic,trip,71,12.0,0.31,0.685
+qwen3vl4b,geom_token_logistic,tripadvisor,153,20.0,0.17,0.734
+qwen3vl4b,geom_token_logistic,__LOO_AUROC__,10,,,min 0.697 / med 0.709 / max 0.719

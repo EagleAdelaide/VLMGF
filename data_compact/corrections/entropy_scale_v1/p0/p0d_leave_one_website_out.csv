@@ -1,0 +1,7 @@
+model,head,n_sites,cov_min,cov_max,risk_min,risk_med,risk_max,auroc_min,auroc_med,auroc_max
+qwen3vl4b,raw_coord_mean_entropy,10,0.42,0.461,0.109,0.121,0.129,0.658,0.67,0.687
+qwen3vl4b,token_logistic,10,0.423,0.476,0.115,0.126,0.132,0.684,0.692,0.71
+qwen3vl4b,geom_token_logistic,10,0.518,0.562,0.099,0.108,0.113,0.697,0.709,0.719
+internvl35_4b,raw_coord_mean_entropy,10,0.347,0.398,0.309,0.349,0.365,0.774,0.785,0.828
+internvl35_4b,token_logistic,10,0.349,0.397,0.348,0.368,0.38,0.792,0.796,0.832
+internvl35_4b,geom_token_logistic,10,0.361,0.403,0.322,0.354,0.358,0.8,0.811,0.835

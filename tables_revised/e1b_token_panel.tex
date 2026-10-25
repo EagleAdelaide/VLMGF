@@ -1,0 +1,16 @@
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Score / access & Qwen3-VL-4B & InternVL3.5-4B \\
+\midrule
+Geometry logistic (output only) & 0.640 & 0.627 \\
+Full logistic (output only) & 0.629 & 0.661 \\
+\midrule
+Raw coord. entropy (logits) & 0.627 & 0.761 \\
+Coord. mean log-prob. (logits) & 0.597 & 0.729 \\
+Whole-output log-prob. (control) & 0.603 & 0.637 \\
+\midrule
+Token-only logistic (logits) & 0.664 & 0.766 \\
+Geometry+token logistic (logits) & 0.738 & 0.830 \\
+Full+token logistic (logits) & 0.741 & 0.838 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,3 @@
+model_key,best_fixed_interface,oracle_gap_mean_iou,oracle_gap_iou_at_0_5,full_router_delta_mean_iou,full_router_recovery_fraction,valid_only_oracle_gap_mean_iou,valid_only_router_recovery_fraction,headroom_pass,router_pass,parse_independent_headroom,model_gate_pass
+qwen3vl4b,tuple,0.01763559907730594,0.016000000000000014,-0.001667218462116593,-0.09453710388903225,0.017707257421313516,-0.09558562124840533,False,False,False,False
+internvl35_4b,native,0.019122935810803487,0.02399999999999991,-0.0013176969961630203,-0.06890662653474935,0.019142077888692266,-0.06890662653474408,False,False,False,False

@@ -1,0 +1,90 @@
+{
+  "visual_genome": {
+    "delta_auroc_full_logistic_minus_geom_logistic": {
+      "mean": 0.061795383826490094,
+      "lo": 0.04421357401203816,
+      "hi": 0.07842762414787542
+    },
+    "delta_auroc_full_gbdt_minus_geom_gbdt": {
+      "mean": 0.05053005313825551,
+      "lo": 0.037045661223655366,
+      "hi": 0.06360974915525819
+    },
+    "delta_r50_full_logistic_minus_geom_logistic": {
+      "mean": -0.03734814285714286,
+      "lo": -0.05199999999999999,
+      "hi": -0.02285714285714287
+    },
+    "delta_r50_full_gbdt_minus_geom_gbdt": {
+      "mean": -0.037197,
+      "lo": -0.04915000000000002,
+      "hi": -0.024857142857142855
+    }
+  },
+  "flickr30k_entities": {
+    "delta_auroc_full_logistic_minus_geom_logistic": {
+      "mean": 0.05673277130875727,
+      "lo": 0.043396821708580675,
+      "hi": 0.0701973810691045
+    },
+    "delta_auroc_full_gbdt_minus_geom_gbdt": {
+      "mean": 0.04309678150098049,
+      "lo": 0.0312422201973271,
+      "hi": 0.05509831066611143
+    },
+    "delta_r50_full_logistic_minus_geom_logistic": {
+      "mean": -0.030158,
+      "lo": -0.04,
+      "hi": -0.02057142857142857
+    },
+    "delta_r50_full_gbdt_minus_geom_gbdt": {
+      "mean": -0.017010285714285714,
+      "lo": -0.02571428571428572,
+      "hi": -0.008571428571428572
+    }
+  },
+  "visual7w": {
+    "delta_auroc_full_logistic_minus_geom_logistic": {
+      "mean": 0.024813778679355282,
+      "lo": 0.011613533212508883,
+      "hi": 0.037483649607633424
+    },
+    "delta_auroc_full_gbdt_minus_geom_gbdt": {
+      "mean": 0.018144670057060074,
+      "lo": 0.009609926785891537,
+      "hi": 0.02649360805578677
+    },
+    "delta_r50_full_logistic_minus_geom_logistic": {
+      "mean": -0.02424042857142857,
+      "lo": -0.03571428571428572,
+      "hi": -0.01342857142857141
+    },
+    "delta_r50_full_gbdt_minus_geom_gbdt": {
+      "mean": -0.008843714285714288,
+      "lo": -0.01771428571428572,
+      "hi": -0.0005642857142857464
+    }
+  },
+  "gqa": {
+    "delta_auroc_full_logistic_minus_geom_logistic": {
+      "mean": 0.029245844713506136,
+      "lo": 0.019277392425885664,
+      "hi": 0.03893539723923421
+    },
+    "delta_auroc_full_gbdt_minus_geom_gbdt": {
+      "mean": 0.03162143021825393,
+      "lo": 0.022278809232756762,
+      "hi": 0.040843009776134725
+    },
+    "delta_r50_full_logistic_minus_geom_logistic": {
+      "mean": -0.021908428571428572,
+      "lo": -0.03171428571428571,
+      "hi": -0.011714285714285724
+    },
+    "delta_r50_full_gbdt_minus_geom_gbdt": {
+      "mean": -0.02963385714285714,
+      "lo": -0.03942857142857143,
+      "hi": -0.02000000000000001
+    }
+  }
+}

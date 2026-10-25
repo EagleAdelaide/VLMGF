@@ -1,0 +1,25 @@
+{
+  "ambiguity_plus_cannot_determine_rate": 0.006666666666666667,
+  "gate": "CONDITIONAL",
+  "headline_leaders_changed": [],
+  "invalid_rate": 0.06666666666666667,
+  "material_change_rule": "leader change OR |delta rho|>=0.10 OR |delta GRC AUROC|>=0.03 OR |delta GRC AURC|>=0.02",
+  "max_absolute_grc_aurc_change": 0.003870161711925668,
+  "max_absolute_grc_auroc_change": 0.004093396444884934,
+  "max_absolute_rank_correlation_change": 0.0,
+  "primary_exclusion_rule": [
+    "cannot_determine",
+    "corrupted_image_query",
+    "duplicate_near_duplicate",
+    "incorrect_gt_box",
+    "invalid_target_query_conversion"
+  ],
+  "strict_exclusion_rule": [
+    "cannot_determine",
+    "corrupted_image_query",
+    "duplicate_near_duplicate",
+    "incorrect_gt_box",
+    "invalid_target_query_conversion",
+    "valid_mildly_ambiguous"
+  ]
+}

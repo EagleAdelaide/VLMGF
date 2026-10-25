@@ -1,0 +1,17 @@
+{
+  "all": {
+    "geom": 0.6759,
+    "full": 0.7034,
+    "prior": 0.6268
+  },
+  "parse_valid_only": {
+    "geom": 0.6674,
+    "full": 0.6956,
+    "prior": 0.6206
+  },
+  "exclude_recovered": {
+    "geom": 0.6777,
+    "full": 0.7051,
+    "prior": 0.6282
+  }
+}

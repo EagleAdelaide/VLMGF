@@ -1,0 +1,13 @@
+{
+ "seed": 20261009,
+ "bootstrap_draws": 2000,
+ "artifact_root": ".",
+ "test_website_op_composition_manifest": {
+  "CLICK": 670,
+  "SELECT": 71,
+  "TYPE": 111
+ },
+ "p1a_stable_gate_count": 9,
+ "p1a_bh_sig_among_stable": 9,
+ "p1a_bonf_sig_among_stable": 7
+}

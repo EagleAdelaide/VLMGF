@@ -1,0 +1,9 @@
+model,head,caught_at_20,n_fail
+qwen3vl4b,geom_gbdt,65,188
+qwen3vl4b,raw_coord_mean_entropy,64,188
+qwen3vl4b,token_logistic,70,188
+qwen3vl4b,geom_token_logistic,72,188
+internvl35_4b,geom_gbdt,146,541
+internvl35_4b,raw_coord_mean_entropy,154,541
+internvl35_4b,token_logistic,163,541
+internvl35_4b,geom_token_logistic,162,541

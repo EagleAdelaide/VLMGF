@@ -1,0 +1,7 @@
+model_key,left,right,mean_prediction_iou,both_fail,left_only_fail,right_only_fail,both_succeed
+qwen3vl4b,native,norm_json,0.9118540756749776,75,58,11,856
+qwen3vl4b,native,tuple,0.9071433889530739,70,63,12,855
+qwen3vl4b,norm_json,tuple,0.9602492101638602,71,15,11,903
+internvl35_4b,native,norm_json,0.6590329438831256,62,17,281,640
+internvl35_4b,native,tuple,0.6886802714803192,59,20,244,677
+internvl35_4b,norm_json,tuple,0.8017932511900038,253,90,50,607

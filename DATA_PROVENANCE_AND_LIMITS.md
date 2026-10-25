@@ -1,0 +1,13 @@
+# Data provenance and reproduction limits
+
+This release supplies computed numeric grounding outputs, labels, features, group/fold IDs, evaluation manifests, saved sampled coordinate outputs and derived tables. It does not redistribute the original image datasets, model weights, webpage screenshots, HTML, or task/target free text.
+
+The Web population is pinned by the preserved annotation/action IDs and sampling fields in `data_compact/mind2web_frozen/manifest.csv`; `exclusions.csv` records the original exclusions. Four descriptive text/value columns are removed from the public manifest because they contain benchmark personal email examples. Every other value and the row order are preserved. The public pin manifest reflects this explicit privacy transformation; all published numerical score/feature/label files retain their frozen bytes. `PUBLIC_RELEASE_EXCLUSIONS.json` records omitted paths/hashes and this transformation.
+
+Obtain original Multimodal-Mind2Web images through its [official dataset card](https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web), which identifies OpenRAIL licensing. Follow [Mind2Web's original license](https://github.com/OSU-NLP-Group/Mind2Web/blob/main/LICENSE), access terms and privacy conditions. The dataset license does not grant rights over every third-party photograph visible on a webpage. Therefore the archived Figure 1 illustration, its crops and editable screenshot assets are excluded here. Figure 1's numeric outcome/accepted-set inputs remain included. This release never substitutes a schematic for that illustration.
+
+Natural-image numeric derivatives come from the named RefCOCO-family, Visual Genome, Flickr30k Entities, Visual7W and rule-converted GQA evaluations. Original images and raw dataset text must be obtained from their official providers under their respective terms. The frozen group IDs, features, fold assignments and outcomes needed for CPU L1/L2 are included; no image is needed by those levels. Model checkpoints require the upstream model licenses and are not shipped.
+
+Original analysis software retains the anonymous project's MIT license in `LICENSE.txt`; third-party SafeGround code and its MIT copyright/license notices are unmodified under `r9_1/third_party/SAFEGROUND/`. Third-party names and upstream source/license links are attribution, not identifying links to this project's authors.
+
+L3 model-output regeneration is unsupported by this CPU package: it requires external licensed datasets, checkpoints, GPUs and the original generation environment. Nothing in L1/L2 is an executed browser action, a new Web human audit or a guarantee of future-site risk.

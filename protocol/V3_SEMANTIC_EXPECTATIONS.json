@@ -1,0 +1,8 @@
+{
+  "threshold_outcome_labels_required": 0,
+  "head_fit_labels": 510,
+  "threshold_scored_inputs": 200,
+  "O2": "static point-in-target localization proxy",
+  "bands": "pointwise conditional on frozen heads",
+  "sampling_headline": "released-code defaults versus fitted token-only on matched500; paper intervals include zero"
+}

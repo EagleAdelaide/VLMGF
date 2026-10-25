@@ -1,0 +1,150 @@
+[
+  {
+    "model": "qwen3vl4b",
+    "split": "calib",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "calib",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "calib",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "calib",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_website",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_website",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_website",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_website",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_domain",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_domain",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_domain",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "qwen3vl4b",
+    "split": "test_domain",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "calib",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "calib",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "calib",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "calib",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_website",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_website",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_website",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_website",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_domain",
+    "check": "V3_ID_hash full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_domain",
+    "check": "legacy_R9 full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_domain",
+    "check": "stable full rank order/curves/all rank budgets unchanged",
+    "pass": true
+  },
+  {
+    "model": "internvl35_4b",
+    "split": "test_domain",
+    "check": "unrelated extreme/permutation/chunk score and acceptance invariance",
+    "pass": true
+  },
+  {
+    "check": "fit-only missing imputation, inclusive ties, and infinity rejection",
+    "pass": true
+  }
+]

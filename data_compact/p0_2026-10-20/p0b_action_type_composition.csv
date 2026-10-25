@@ -1,0 +1,7 @@
+model,op,n,tasks,point_fail_rate,iou_fail_rate,iou_fail_point_hit
+qwen3vl4b,CLICK,670,141,0.239,0.499,174
+qwen3vl4b,SELECT,71,29,0.113,0.211,7
+qwen3vl4b,TYPE,111,86,0.18,0.216,4
+internvl35_4b,CLICK,670,141,0.664,0.837,116
+internvl35_4b,SELECT,71,29,0.451,0.634,13
+internvl35_4b,TYPE,111,86,0.577,0.748,19

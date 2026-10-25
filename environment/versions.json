@@ -1,0 +1,10 @@
+{
+ "python": "3.11.15",
+ "sklearn": "1.8.0",
+ "pandas": "3.0.3",
+ "numpy": "2.4.4",
+ "statsmodels": "0.14.6",
+ "scipy": "1.17.1",
+ "pyarrow": "24.0.0",
+ "parquet_engine": "pyarrow"
+}

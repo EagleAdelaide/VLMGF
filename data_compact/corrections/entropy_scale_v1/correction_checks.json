@@ -1,0 +1,110 @@
+[
+  {
+    "check": "all ten independent pyarrow-reference operating points agree to 1e-12",
+    "pass": true
+  },
+  {
+    "check": "all independent reference per-ID scores/acceptance agree",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 exploratory_scores.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 probability_calibration.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 refit_agreement.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 risk_coverage_pointwise.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 queue_metrics.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 paired_queue_contrasts.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged V3 queue_ids.csv",
+    "pass": true
+  },
+  {
+    "check": "only raw-entropy operating-point fields change: singlepass_metrics.csv",
+    "pass": true
+  },
+  {
+    "check": "only raw-entropy operating-point fields change: site_quantile_sensitivity.csv",
+    "pass": true
+  },
+  {
+    "check": "qwen3vl4b sampling point metrics, paired AUROC effects/intervals and all non-entropy thresholds unchanged",
+    "pass": true
+  },
+  {
+    "check": "qwen3vl4b every fitted score/label/split/group and geometry+token threshold/accepted ID unchanged",
+    "pass": true
+  },
+  {
+    "check": "internvl35_4b sampling point metrics, paired AUROC effects/intervals and all non-entropy thresholds unchanged",
+    "pass": true
+  },
+  {
+    "check": "internvl35_4b every fitted score/label/split/group and geometry+token threshold/accepted ID unchanged",
+    "pass": true
+  },
+  {
+    "check": "unchanged p0b_same_accepted_set_two_outcomes.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged p0b_accepted_ids_geom_token_frozen.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged p0c_risk_coverage_bands.csv",
+    "pass": true
+  },
+  {
+    "check": "unchanged p0b_outcome_contingency_852.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0c_heads_overall_and_domain.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0b_heads_click_only_670.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0d_by_action_type_frozen.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0d_by_size_tercile_frozen.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0d_model_by_website_frozen.csv",
+    "pass": true
+  },
+  {
+    "check": "non-entropy rows unchanged in p0d_leave_one_website_out.csv",
+    "pass": true
+  },
+  {
+    "check": "101 original frozen input hashes unchanged",
+    "pass": true
+  },
+  {
+    "check": "real Fig1Refined PDF bytes unchanged",
+    "pass": true
+  }
+]

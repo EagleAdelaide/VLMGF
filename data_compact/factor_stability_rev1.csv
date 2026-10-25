@@ -1,0 +1,12 @@
+category,term,estimate,cluster_ci,src_boot_ci,src_boot_excludes0,product_sign_ci_SENS,iou_sign_agree,lom_sign_agree,lof_sign_agree,stable_rev_gate
+expression_length,expression_length_z,-0.12558415068101492,"[-0.1576,-0.0936]","[-0.1571,-0.0929]",True,"[-0.1781,-0.0700]",True,1.0,1.0,True
+spatial_cue,has_spatial,0.027209888016515527,"[-0.0363,0.0907]","[-0.0393,0.0941]",False,"[-0.1174,0.1771]",True,0.8571428571428571,0.8,False
+relation_cue,has_relation,0.06133222468448928,"[-0.0064,0.1291]","[-0.0031,0.1298]",False,"[0.0012,0.1191]",True,1.0,1.0,False
+attribute_cue,has_attribute,0.2770731664875565,"[0.2122,0.3419]","[0.2111,0.3398]",True,"[0.1765,0.3787]",True,1.0,1.0,True
+part_reference,likely_part,-0.5360286560819164,"[-0.6967,-0.3754]","[-0.6910,-0.3759]",True,"[-0.6860,-0.3865]",True,1.0,1.0,True
+target_size,object_size_medium,-0.7119769729503727,"[-0.7845,-0.6395]","[-0.7838,-0.6411]",True,"[-0.8832,-0.5438]",True,1.0,1.0,True
+target_size,object_size_small,-1.6172645314766094,"[-1.7469,-1.4877]","[-1.7433,-1.4908]",True,"[-1.8671,-1.3761]",True,1.0,1.0,True
+target_location,target_edge,-0.17587434815132513,"[-0.2481,-0.1037]","[-0.2484,-0.1046]",True,"[-0.2665,-0.0787]",True,1.0,1.0,True
+border_proximity,border_near,0.0966818283491511,"[0.0227,0.1706]","[0.0221,0.1706]",True,"[0.0269,0.1650]",True,1.0,1.0,True
+part_x_size,likely_part:object_size_medium,0.36022843004183575,"[0.1632,0.5573]","[0.1548,0.5577]",True,"[0.2413,0.4792]",True,1.0,1.0,True
+part_x_size,likely_part:object_size_small,0.4415370086918241,"[0.1265,0.7566]","[0.1084,0.7560]",True,"[0.1061,0.7770]",True,1.0,1.0,True

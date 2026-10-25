@@ -1,0 +1,19 @@
+model,head,op,n,n_fail,prevalence,auroc,frozen_coverage,frozen_accepted_risk,n_accepted,note
+qwen3vl4b,raw_coord_mean_entropy,CLICK,670,160,0.239,0.673,0.382,0.121,256,
+qwen3vl4b,raw_coord_mean_entropy,SELECT,71,8,0.113,0.718,0.634,0.089,45,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+qwen3vl4b,raw_coord_mean_entropy,TYPE,111,20,0.18,0.605,0.667,0.135,74,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+qwen3vl4b,token_logistic,CLICK,670,160,0.239,0.705,0.399,0.124,267,
+qwen3vl4b,token_logistic,SELECT,71,8,0.113,0.683,0.676,0.083,48,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+qwen3vl4b,token_logistic,TYPE,111,20,0.18,0.546,0.541,0.167,60,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+qwen3vl4b,geom_token_logistic,CLICK,670,160,0.239,0.706,0.482,0.111,323,
+qwen3vl4b,geom_token_logistic,SELECT,71,8,0.113,0.534,0.761,0.093,54,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+qwen3vl4b,geom_token_logistic,TYPE,111,20,0.18,0.73,0.721,0.1,80,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,raw_coord_mean_entropy,CLICK,670,445,0.664,0.822,0.381,0.369,255,
+internvl35_4b,raw_coord_mean_entropy,SELECT,71,32,0.451,0.8,0.521,0.27,37,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,raw_coord_mean_entropy,TYPE,111,64,0.577,0.676,0.198,0.227,22,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,token_logistic,CLICK,670,445,0.664,0.826,0.367,0.374,246,
+internvl35_4b,token_logistic,SELECT,71,32,0.451,0.792,0.479,0.235,34,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,token_logistic,TYPE,111,64,0.577,0.692,0.306,0.441,34,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,geom_token_logistic,CLICK,670,445,0.664,0.836,0.352,0.339,236,
+internvl35_4b,geom_token_logistic,SELECT,71,32,0.451,0.766,0.549,0.256,39,TYPE/SELECT: localization proxy only (no typing/selecting executed)
+internvl35_4b,geom_token_logistic,TYPE,111,64,0.577,0.675,0.423,0.468,47,TYPE/SELECT: localization proxy only (no typing/selecting executed)

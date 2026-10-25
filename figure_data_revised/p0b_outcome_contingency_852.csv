@@ -1,0 +1,3 @@
+model,n,iou_fail,point_fail,iou_fail_point_hit,iou_ok_point_fail,both_fail,both_ok,iou_fail_point_hit_pct_of_852,iou_fail_point_hit_pct_of_iou_failures
+qwen3vl4b,852,373,188,185,0,188,479,21.7,49.6
+internvl35_4b,852,689,541,148,0,541,163,17.4,21.5

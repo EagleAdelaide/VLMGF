@@ -1,0 +1,13 @@
+{
+  "defect": "subset image key Path(name).rsplit('_',1)[0] collapsed v7w_<id>.jpg to 'v7w'",
+  "subset_rows": 1000,
+  "subset_unique_images": 1000,
+  "old_subset_expr_per_image": 1000.0,
+  "old_smd": 257.605970718914,
+  "full_mean": 9.467531765341985,
+  "full_std_recovered": 3.8451456131638913,
+  "new_subset_expr_per_image": 1.0,
+  "new_smd": -2.202135528067731,
+  "interpretation": "The corrected |SMD|=2.20 reflects the subset design (one pointing QA per image vs 9.47 QA/image in full val), a documented sampling choice, not a representativeness defect; all other v7w factors have |SMD|<0.05.",
+  "new_v7w_max_abs_imbalance": 2.202135528067731
+}

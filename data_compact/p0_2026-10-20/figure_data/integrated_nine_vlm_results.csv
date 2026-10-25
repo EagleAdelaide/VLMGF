@@ -1,0 +1,46 @@
+model,slug,family,family_key,mean_iou,iou_at_0_5,valid_json_rate,confidence_iou_corr,n_samples,output_interface_type
+Qwen2.5-VL-3B,qwen25vl3b,RefCOCO family,refcoco,0.7371150251570241,0.806625,1.0,0.0233596494709702,1000,historical native/best frozen configuration
+Qwen2.5-VL-3B,qwen25vl3b,Visual7W,v7w,0.3670093897292193,0.37,0.994,-0.0452793899617621,1000,historical native/best frozen configuration
+Qwen2.5-VL-3B,qwen25vl3b,Visual Genome,vg,0.4249251066985086,0.456,0.999,0.0876066413339743,1000,historical native/best frozen configuration
+Qwen2.5-VL-3B,qwen25vl3b,Flickr30k Ent.,flickr,0.7099684314061592,0.789,1.0,0.11343154757653,1000,historical native/best frozen configuration
+Qwen2.5-VL-3B,qwen25vl3b,GQA,gqa,0.5027774929386735,0.55,0.995,0.1806780215025915,1000,historical native/best frozen configuration
+Qwen2.5-VL-7B,qwen25vl7b,RefCOCO family,refcoco,0.7556812252858733,0.83975,0.996375,0.1257176456815772,1000,historical native/best frozen configuration
+Qwen2.5-VL-7B,qwen25vl7b,Visual7W,v7w,0.3852857727473017,0.382,0.989,0.0306831091152624,1000,historical native/best frozen configuration
+Qwen2.5-VL-7B,qwen25vl7b,Visual Genome,vg,0.4178776369304589,0.433,0.997,0.1408908669610423,1000,historical native/best frozen configuration
+Qwen2.5-VL-7B,qwen25vl7b,Flickr30k Ent.,flickr,0.6878791301039875,0.759,0.997,0.1154051415898071,1000,historical native/best frozen configuration
+Qwen2.5-VL-7B,qwen25vl7b,GQA,gqa,0.5066012170460242,0.553,0.99,0.2152811598322512,1000,historical native/best frozen configuration
+InternVL3-2B,internvl3_2b,RefCOCO family,refcoco,0.7169040675267507,0.770625,0.986125,,1000,historical native/best frozen configuration
+InternVL3-2B,internvl3_2b,Visual7W,v7w,0.3207771539384862,0.291,0.988,,1000,historical native/best frozen configuration
+InternVL3-2B,internvl3_2b,Visual Genome,vg,0.2654485277654922,0.218,0.998,,1000,historical native/best frozen configuration
+InternVL3-2B,internvl3_2b,Flickr30k Ent.,flickr,0.5874857371954709,0.602,0.985,,1000,historical native/best frozen configuration
+InternVL3-2B,internvl3_2b,GQA,gqa,0.3879577871496684,0.396,0.988,,1000,historical native/best frozen configuration
+InternVL3-8B,internvl3_8b,RefCOCO family,refcoco,0.5574405217933395,0.619375,0.93975,,1000,historical native/best frozen configuration
+InternVL3-8B,internvl3_8b,Visual7W,v7w,0.2437970285328347,0.23,0.914,,1000,historical native/best frozen configuration
+InternVL3-8B,internvl3_8b,Visual Genome,vg,0.2009074518774053,0.182,0.901,,1000,historical native/best frozen configuration
+InternVL3-8B,internvl3_8b,Flickr30k Ent.,flickr,0.4157688960797271,0.424,0.946,,1000,historical native/best frozen configuration
+InternVL3-8B,internvl3_8b,GQA,gqa,0.2544544443355477,0.239,0.941,,1000,historical native/best frozen configuration
+PaliGemma2-3B,paligemma2_3b,RefCOCO family,refcoco,0.6839398983277999,0.723375,0.986625,,1000,historical native/best frozen configuration
+PaliGemma2-3B,paligemma2_3b,Visual7W,v7w,0.360550421854996,0.351,0.99,,1000,historical native/best frozen configuration
+PaliGemma2-3B,paligemma2_3b,Visual Genome,vg,0.4028053861259431,0.425,0.997,,1000,historical native/best frozen configuration
+PaliGemma2-3B,paligemma2_3b,Flickr30k Ent.,flickr,0.7416462922883907,0.816,0.996,,1000,historical native/best frozen configuration
+PaliGemma2-3B,paligemma2_3b,GQA,gqa,0.5223241726780216,0.573,0.942,,1000,historical native/best frozen configuration
+Florence-2-L,florence2l,RefCOCO family,refcoco,0.5233091619188125,0.5215,0.9995,,1000,historical native/best frozen configuration
+Florence-2-L,florence2l,Visual7W,v7w,0.3025840773888636,0.274,1.0,,1000,historical native/best frozen configuration
+Florence-2-L,florence2l,Visual Genome,vg,0.4414600642292627,0.478,1.0,,1000,historical native/best frozen configuration
+Florence-2-L,florence2l,Flickr30k Ent.,flickr,0.7730011021641797,0.846,0.999,,1000,historical native/best frozen configuration
+Florence-2-L,florence2l,GQA,gqa,0.5693966459436228,0.593,1.0,,1000,historical native/best frozen configuration
+LLaVA-1.5-7B,llava15_7b,RefCOCO family,refcoco,0.4047441809731709,0.4105,1.0,0.1353352242399193,1000,historical native/best frozen configuration
+LLaVA-1.5-7B,llava15_7b,Visual7W,v7w,0.2114645975342348,0.11,1.0,0.0955989045210771,1000,historical native/best frozen configuration
+LLaVA-1.5-7B,llava15_7b,Visual Genome,vg,0.2174804747346777,0.162,1.0,0.093307977034094,1000,historical native/best frozen configuration
+LLaVA-1.5-7B,llava15_7b,Flickr30k Ent.,flickr,0.408713311964486,0.364,1.0,0.2513125607194925,1000,historical native/best frozen configuration
+LLaVA-1.5-7B,llava15_7b,GQA,gqa,0.2495832696270011,0.191,1.0,0.1364121469582891,1000,historical native/best frozen configuration
+Qwen3-VL-4B,qwen3vl4b,RefCOCO family,refcoco,0.802354577941564,0.8665,0.999625,,8000,prompted normalized tuple
+Qwen3-VL-4B,qwen3vl4b,Visual7W,v7w,0.4326392678833641,0.435,1.0,,1000,prompted normalized tuple
+Qwen3-VL-4B,qwen3vl4b,Visual Genome,vg,0.4801269773778535,0.527,1.0,,1000,prompted normalized tuple
+Qwen3-VL-4B,qwen3vl4b,Flickr30k Ent.,flickr,0.7293368837477253,0.798,1.0,,1000,prompted normalized tuple
+Qwen3-VL-4B,qwen3vl4b,GQA,gqa,0.5536736081575393,0.612,0.998,,1000,prompted normalized tuple
+InternVL3.5-4B,internvl35_4b,RefCOCO family,refcoco,0.8154507426998009,0.88375,1.0,,8000,native ref-box
+InternVL3.5-4B,internvl35_4b,Visual7W,v7w,0.4114052422026659,0.401,1.0,,1000,native ref-box
+InternVL3.5-4B,internvl35_4b,Visual Genome,vg,0.3895682995508517,0.387,1.0,,1000,native ref-box
+InternVL3.5-4B,internvl35_4b,Flickr30k Ent.,flickr,0.6240886827992161,0.639,1.0,,1000,native ref-box
+InternVL3.5-4B,internvl35_4b,GQA,gqa,0.4150284768153613,0.406,1.0,,1000,native ref-box

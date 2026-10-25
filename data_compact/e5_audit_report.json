@@ -1,0 +1,164 @@
+{
+  "composition": [
+    {
+      "packet": "pilot120",
+      "n": 120,
+      "failure_rate": 0.4166666666666667,
+      "groups": "failure_or_hard_group:60;success_control:60",
+      "selection_rule": "see pilot config",
+      "iou_q25": 0.34376036481554717,
+      "iou_med": 0.763973998449861,
+      "fail_iou_med": 0.2572775970449128,
+      "fail_iou_q75": 0.395742050440785,
+      "pred_area_med": 0.14308593749999998,
+      "keep_parse_rate": 1.0,
+      "remove_parse_rate": 0.9916666666666667
+    },
+    {
+      "packet": "prospective150",
+      "n": 150,
+      "failure_rate": 0.23333333333333334,
+      "groups": "prospective_random:150",
+      "selection_rule": "uniform_random_seed_20260706_from_parse_successes",
+      "iou_q25": 0.5708861509265848,
+      "iou_med": 0.8757548852718073,
+      "fail_iou_med": 0.10342848939592106,
+      "fail_iou_q75": 0.3083857521377514,
+      "pred_area_med": 0.18125365925058548,
+      "keep_parse_rate": 1.0,
+      "remove_parse_rate": 0.9866666666666667
+    }
+  ],
+  "sens_vs_geometry_spearman": {
+    "pilot120": -0.2902409416763124,
+    "prospective150": -0.18027148329476642
+  },
+  "aurocs": [
+    {
+      "packet": "pilot120",
+      "score": "tesc_sensitivity",
+      "auroc_fail": 0.5145714285714286,
+      "lo": 0.4073972222222222,
+      "hi": 0.6200272817460315
+    },
+    {
+      "packet": "pilot120",
+      "score": "tesc_combined",
+      "auroc_fail": 0.5527142857142857,
+      "lo": 0.4483383556547619,
+      "hi": 0.6601405310698074
+    },
+    {
+      "packet": "pilot120",
+      "score": "tesc_consistency",
+      "auroc_fail": 0.6442857142857142,
+      "lo": 0.5391334574616086,
+      "hi": 0.7470662961898373
+    },
+    {
+      "packet": "prospective150",
+      "score": "tesc_sensitivity",
+      "auroc_fail": 0.5745341614906833,
+      "lo": 0.4671993730223837,
+      "hi": 0.6790433303503743
+    },
+    {
+      "packet": "prospective150",
+      "score": "tesc_combined",
+      "auroc_fail": 0.46633540372670806,
+      "lo": 0.3522914553752535,
+      "hi": 0.5754917379585138
+    },
+    {
+      "packet": "prospective150",
+      "score": "tesc_consistency",
+      "auroc_fail": 0.548944099378882,
+      "lo": 0.4311557809668859,
+      "hi": 0.6581231884057971
+    },
+    {
+      "packet": "pilot120",
+      "score": "tesc_learned_cv",
+      "auroc_fail": 0.7317142857142858,
+      "lo": 0.6319316277762863,
+      "hi": 0.8204448460118526
+    },
+    {
+      "packet": "pilot120",
+      "score": "grc_noint_cv",
+      "auroc_fail": 0.6354285714285715,
+      "lo": 0.5266069782502258,
+      "hi": 0.739513187429854
+    },
+    {
+      "packet": "prospective150",
+      "score": "tesc_learned_cv",
+      "auroc_fail": 0.46559006211180126,
+      "lo": 0.35925524749373433,
+      "hi": 0.5601938984438983
+    },
+    {
+      "packet": "prospective150",
+      "score": "grc_noint_cv",
+      "auroc_fail": 0.661863354037267,
+      "lo": 0.5452366060793705,
+      "hi": 0.7703997009562217
+    },
+    {
+      "packet": "prospective150",
+      "score": "tesc_learned_pilotfrozen",
+      "auroc_fail": 0.44211180124223604,
+      "lo": 0.34502462678435214,
+      "hi": 0.5497326607594034
+    },
+    {
+      "packet": "pilot120",
+      "score": "tesc_learned_cv_PERMUTED_mean",
+      "auroc_fail": 0.5034571428571428,
+      "lo": 0.35485714285714287,
+      "hi": 0.5880642857142857
+    }
+  ],
+  "geometry_stratified": [
+    {
+      "packet": "pilot120",
+      "area_bin": 0,
+      "n": 40,
+      "auroc_fail": 0.6585677749360613
+    },
+    {
+      "packet": "pilot120",
+      "area_bin": 1,
+      "n": 40,
+      "auroc_fail": 0.376
+    },
+    {
+      "packet": "pilot120",
+      "area_bin": 2,
+      "n": 40,
+      "auroc_fail": 0.47619047619047616
+    },
+    {
+      "packet": "prospective150",
+      "area_bin": 0,
+      "n": 40,
+      "auroc_fail": 0.648
+    },
+    {
+      "packet": "prospective150",
+      "area_bin": 1,
+      "n": 53,
+      "auroc_fail": 0.604978354978355
+    },
+    {
+      "packet": "prospective150",
+      "area_bin": 2,
+      "n": 57,
+      "auroc_fail": 0.42476851851851855
+    }
+  ],
+  "notes": [
+    "Packets differ simultaneously in sampling rule AND dataset (RefCOCO val stratified-ish pilot vs RefCOCO+ val uniform-from-parse-successes); the sampling-vs-dataset share is NOT identifiable from these data alone.",
+    "No new inference, thresholds, or feature tuning were performed; pilot-frozen transfer uses the full pilot fit once."
+  ]
+}

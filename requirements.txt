@@ -1,0 +1,9 @@
+# Tested install path for L1+L2 replay (python 3.11; see REPRODUCIBILITY_AUDIT.md in the deliverables for the executed log).
+numpy==2.4.4
+pandas==3.0.3
+scikit-learn==1.8.0
+statsmodels==0.14.6
+scipy==1.17.1
+pyarrow==24.0.0
+matplotlib==3.10.9
+Pillow==12.2.0

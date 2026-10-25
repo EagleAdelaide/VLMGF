@@ -1,0 +1,86 @@
+{
+  "token_features": [
+    "coord_mean_logprob",
+    "coord_min_logprob",
+    "coord_mean_entropy",
+    "out_mean_logprob"
+  ],
+  "missingness": "One indicator per feature, computed before fit-median replacement; 8 token features in total.",
+  "geometry_features": [
+    "pred_area_ratio",
+    "pred_cx",
+    "pred_cy",
+    "pred_w",
+    "pred_h",
+    "pred_aspect",
+    "pred_edge_dist",
+    "pred_touches_border",
+    "pred_bbox_missing"
+  ],
+  "note": "Exact producer column names; no annotated target geometry enters deployable heads.",
+  "fit_rows": 510,
+  "calibration_inputs": 200,
+  "fitting_labels": "O2 for frozen Web heads; O1 only for the separately dated exploratory queue comparison.",
+  "logistic": {
+    "imputation": "fit-only median",
+    "scaling": "fit-only StandardScaler",
+    "C": 1,
+    "penalty": "l2",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "seed": 20261009
+  },
+  "gbdt": {
+    "selection": "3-fold task-grouped fit-only log loss",
+    "max_depth": [
+      2,
+      3
+    ],
+    "max_iter": [
+      100,
+      200
+    ],
+    "learning_rate": 0.1
+  },
+  "entropy": {
+    "qwen3vl4b": {
+      "fit_imputation_median": 0.7009783958172193,
+      "calibration_threshold": 0.670317444878189,
+      "n_fit": 510,
+      "n_calibration": 200,
+      "accept": "raw_entropy_failure_score <= calibration_threshold",
+      "score_units": "coordinate-token entropy, natural log units; not a probability",
+      "legacy_score_sha256": "c85e44a29676b0dd7f4f0c98d64eca3a014dd06c3799c333c84aaa6feb0e544d",
+      "raw_features_sha256": "75109419246b4f98b78bf86dc9d750c0f2f6d3eff39bda1d7da58f6f956f420c"
+    },
+    "internvl35_4b": {
+      "fit_imputation_median": 1.4012710257010026,
+      "calibration_threshold": 1.3419256168417633,
+      "n_fit": 510,
+      "n_calibration": 200,
+      "accept": "raw_entropy_failure_score <= calibration_threshold",
+      "score_units": "coordinate-token entropy, natural log units; not a probability",
+      "legacy_score_sha256": "1dfbed4913a56cc441eee16142915cdc69baeebaa375ffb2dabdb4e0705adf70",
+      "raw_features_sha256": "75109419246b4f98b78bf86dc9d750c0f2f6d3eff39bda1d7da58f6f956f420c"
+    }
+  },
+  "threshold_labels": 0,
+  "probability_reference": "Fit-only success prevalence; test-prevalence constant is explicitly an oracle descriptive reference.",
+  "TOKENF": [
+    "coord_mean_logprob",
+    "coord_min_logprob",
+    "coord_mean_entropy",
+    "out_mean_logprob"
+  ],
+  "GEOM": [
+    "pred_area_ratio",
+    "pred_cx",
+    "pred_cy",
+    "pred_w",
+    "pred_h",
+    "pred_aspect",
+    "pred_edge_dist",
+    "pred_touches_border",
+    "pred_bbox_missing"
+  ]
+}

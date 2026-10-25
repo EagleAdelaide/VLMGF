@@ -1,0 +1,15 @@
+model,score,label,regime,fit_labels,threshold_inputs,generations,latency_s,auroc,auroc_lo,auroc_hi,n,n_fail
+qwen3vl4b,geom_gbdt,Geometry GBDT,A,510,200,1,1.493,0.6266,0.5559,0.6942,500,115
+qwen3vl4b,full_logistic,Full observables logistic,A,510,200,1,1.493,0.6255,0.5583,0.6881,500,115
+qwen3vl4b,raw_coord_entropy,Coord. entropy (raw),B,0,200,1,1.493,0.6636,0.5981,0.7206,500,115
+qwen3vl4b,token_only,Token-only logistic,B,510,200,1,1.493,0.6795,0.6191,0.733,500,115
+qwen3vl4b,geom_token,Geometry+token logistic,B,510,200,1,1.493,0.7007,0.6416,0.7557,500,115
+qwen3vl4b,sg_code_default,Dispersion K=10 (code params),C,0,200,11,9.757,0.7349,0.6777,0.788,500,115
+qwen3vl4b,sg_paper_params,Dispersion K=10 (paper params),C,0,200,11,9.757,0.7105,0.652,0.7646,500,115
+internvl35_4b,geom_gbdt,Geometry GBDT,A,510,200,1,1.422,0.7136,0.6627,0.7608,500,328
+internvl35_4b,full_logistic,Full observables logistic,A,510,200,1,1.422,0.7095,0.6572,0.7624,500,328
+internvl35_4b,raw_coord_entropy,Coord. entropy (raw),B,0,200,1,1.422,0.7871,0.7358,0.8347,500,328
+internvl35_4b,token_only,Token-only logistic,B,510,200,1,1.422,0.7862,0.7386,0.8312,500,328
+internvl35_4b,geom_token,Geometry+token logistic,B,510,200,1,1.422,0.8049,0.7574,0.8498,500,328
+internvl35_4b,sg_code_default,Dispersion K=10 (code params),C,0,200,11,4.568,0.7271,0.6701,0.7811,500,328
+internvl35_4b,sg_paper_params,Dispersion K=10 (paper params),C,0,200,11,4.568,0.7645,0.7093,0.8153,500,328

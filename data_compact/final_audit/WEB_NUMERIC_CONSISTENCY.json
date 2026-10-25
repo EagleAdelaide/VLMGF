@@ -1,0 +1,70 @@
+{
+  "frac_gt_fully_in_crop_test_website": 1.0,
+  "op_distribution_test_website": {
+    "CLICK": 670,
+    "TYPE": 111,
+    "SELECT": 71
+  },
+  "deltas": {
+    "geom_token_logistic-geom_gbdt": {
+      "mean": 0.09185173161970064,
+      "lo": 0.05774240737616411,
+      "hi": 0.12733429188228487
+    },
+    "geom_token_logistic-token_logistic": {
+      "mean": 0.012433445552565156,
+      "lo": -0.005206375179798996,
+      "hi": 0.029841677721683765
+    },
+    "geom_token_gbdt-geom_gbdt": {
+      "mean": 0.08393096776259495,
+      "lo": 0.0587341127811037,
+      "hi": 0.11155351508799144
+    },
+    "geom_token_gbdt-token_gbdt": {
+      "mean": 0.024697855529324634,
+      "lo": 0.000922645199504098,
+      "hi": 0.0498967719275495
+    },
+    "token_gbdt-geom_gbdt": {
+      "mean": 0.059233112233270324,
+      "lo": 0.020949482695766162,
+      "hi": 0.09665035515370299
+    },
+    "geom_token_gbdt-geom_token_logistic": {
+      "mean": -0.00792076385710569,
+      "lo": -0.03280622529597765,
+      "hi": 0.017002059563373455
+    }
+  },
+  "mc_random": {
+    "internvl35_4b|test_website": {
+      "c20_mean": 108.6,
+      "c20_lo": 97.0,
+      "c20_hi": 119.02499999999964,
+      "theory_c20": 108.6,
+      "auroc_mean": 0.4997
+    },
+    "internvl35_4b|test_domain": {
+      "c20_mean": 56.9,
+      "c20_lo": 48.0,
+      "c20_hi": 66.0,
+      "theory_c20": 56.9,
+      "auroc_mean": 0.5001
+    },
+    "qwen3vl4b|test_website": {
+      "c20_mean": 37.7,
+      "c20_lo": 28.0,
+      "c20_hi": 47.0,
+      "theory_c20": 37.7,
+      "auroc_mean": 0.5001
+    },
+    "qwen3vl4b|test_domain": {
+      "c20_mean": 16.2,
+      "c20_lo": 10.0,
+      "c20_hi": 23.0,
+      "theory_c20": 16.2,
+      "auroc_mean": 0.5001
+    }
+  }
+}

@@ -1,0 +1,7 @@
+model,size_tercile,n,both_ok,iou_fail_click_ok,iou_ok_click_fail,both_fail
+qwen3vl4b,small,284,118,76,0,90
+qwen3vl4b,medium,284,164,56,0,64
+qwen3vl4b,large,284,197,53,0,34
+internvl35_4b,small,284,24,36,0,224
+internvl35_4b,medium,284,76,35,0,173
+internvl35_4b,large,284,63,77,0,144

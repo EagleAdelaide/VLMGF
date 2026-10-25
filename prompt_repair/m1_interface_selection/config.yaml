@@ -1,0 +1,9 @@
+stage: M1
+seed: 20260715
+bootstrap: 5000
+population: refcoco_val_matched_1000
+group_by: image_path
+interfaces:
+  - native
+  - norm_json
+  - tuple

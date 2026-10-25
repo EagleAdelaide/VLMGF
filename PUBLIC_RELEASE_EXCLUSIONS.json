@@ -1,0 +1,478 @@
+{
+  "omitted_files": [
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "99199a13d835ff920559c9ecd6f79cc75d30e62d6f59b9365df8d1a8ee11a45d",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "README.md",
+      "sha256": "783d1a123e47c5279f2314987e090736eed2402a0c2f62393d927c07e8b75e8a",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "SCORE_SCALE_CORRECTION.md",
+      "sha256": "66a65ed918de4267487950d59d71beb9bdee7b84ea2ae38a156e24ad3fc99b84",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "V3_DECISION_CONSEQUENCE_RESULTS.md",
+      "sha256": "3a67158aace124c289ee0050cadee464e930274b57e9a76b38cd47a3446da829",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "V3_SEMANTIC_CORRECTIONS.md",
+      "sha256": "0dd67f9b27b7469fb3760cdaf4c275886bbf6c5c3838b5e7a92426de0f170e05",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "checksums.sha256",
+      "sha256": "e986574e2804639d1cdc96ac6fe75e453756f6e1b7fe6d8ed66cc12ef2568052",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "figure_sources/fig1_refined/ATTRIBUTION_AND_PERMISSIONS.md",
+      "sha256": "559fca518a48583c045c1f98b563819e719400bad309491eac1fefaa0c2ae6c4",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/EDITABLE_SOURCE_README.md",
+      "sha256": "d1106f29ffa613efd4d95dd14eef11a7375b4b1b67e5cc213746e3dd9c4c91f2",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/EXAMPLE_PROVENANCE.json",
+      "sha256": "af79bbbdd654f86c71c8a0df44ca327060e149e80ba499c71c96f43216e4900c",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/REVISED_CAPTION.tex",
+      "sha256": "2cf5fb4cd69f19b06772f457fd09fb242367974ba040c81a5c0f03e3b40940aa",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/assets/baseline_fig1.pdf",
+      "sha256": "0cd5fb4530f1a511520c089c6333858efc27a01ff46bac6b4820b751e93c57cb",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/assets/baseline_fig1.svg",
+      "sha256": "430db098726fa8abd42aef61761d0a36e4d2a18801b55e44aa0869ff4d75377a",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/assets/native_context.png",
+      "sha256": "09c5e3960e019e21a6ad003bbc8da112e32fff511ba27a5481f443dc365ed536",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/assets/native_detail.png",
+      "sha256": "eab6ab6f08eb504e1a3d89b2139d2bda40372528e01b94f33dab51fed8105949",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/assets/selected_stored_record.json",
+      "sha256": "bd85d6f3a432ae0f651b26c289ead9e946ed0b0de1b116871f12ba4ecdc68454",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/editable_source/make_refined_figure.py",
+      "sha256": "5b7194ac931d2e6135c4fe146650ebc27c1a193cd2a0f21fb9d2aec2a81ee208",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/editable_source/package_refined.py",
+      "sha256": "eaea5c0a3d8ccb89ffff3cd42aa372e92cb85c30350053aee06fc119c12b7e9f",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/editable_source/prepare_refinement.py",
+      "sha256": "9b47a8d0d110e42313cff99c96516ecdd56d737ab1c68e43285145a906e649e5",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/editable_source/requirements_figure.txt",
+      "sha256": "20a3cbaffdac169a624b3555073c91cb0ab5d20ec79817df84f2e22753e8a66f",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/editable_source/verify_refined.py",
+      "sha256": "c75d2bf6f2e7f64f5ba9a4d70542da425c2fb1c8509407dd72b96ead19980449",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/fig1_refined_candidate.pdf",
+      "sha256": "65d416c8a831a14ddee2d7020c27060b5516f80df9704fc22880c83b50f7567e",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figure_sources/fig1_refined/fig1_refined_candidate.svg",
+      "sha256": "b74541a7b480b180def8bbce47f1a20ee8585e021fc6dc0af91d6cd11e540ca4",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figures_revised/fig1_refined_candidate.pdf",
+      "sha256": "65d416c8a831a14ddee2d7020c27060b5516f80df9704fc22880c83b50f7567e",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "figures_revised/fig1_refined_candidate.svg",
+      "sha256": "b74541a7b480b180def8bbce47f1a20ee8585e021fc6dc0af91d6cd11e540ca4",
+      "reason": "Third-party screenshot/photograph rights unresolved; numeric panel data retained."
+    },
+    {
+      "path": "legacy/V3_2_corrected_PROVENANCE.json",
+      "sha256": "8ba75208e0f590560b8b7c4039f86321a8085ce6bda50094bbdd5ce4bae2230f",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/CLAIM_LEDGER.csv",
+      "sha256": "818b1357d8d8cfb1bee54ce63f0c07c8813a4cf91e4a92309da05afab4d0b6e1",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/FIGURE_TABLE_CLAIM_MAP.csv",
+      "sha256": "4cfa7c0c4713084cf34cd1d9354e8a4719e1d51b604388d472da47c3eb371092",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/README.md",
+      "sha256": "fa0eb8ec299e27fd8da7985215786b77b4d231fa975bb27098351217fff413e2",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/audit_number_check_repository_only.py",
+      "sha256": "1f3bcf10ac5b754fc166b9d9c6729adbb206c9eebd18adfe1a47174c85ca4c3a",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/checksums.sha256",
+      "sha256": "fc9d5e9a97d37ae88432aa7893734771bada38a2847a9bcc2bb2b45f75f72718",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/e1b_token_panel.tex",
+      "sha256": "ea5f3399c6f3c471cefe8c918f1358288ab7d509dc49d861f1affa50caec736c",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/factor_fdr.tex",
+      "sha256": "0c8730a862fe603871965a5c24a5e46fd760b653bce8113678e3b6f2aec201be",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig1_outcome_mismatch.pdf",
+      "sha256": "0cd5fb4530f1a511520c089c6333858efc27a01ff46bac6b4820b751e93c57cb",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig1_outcome_mismatch.svg",
+      "sha256": "430db098726fa8abd42aef61761d0a36e4d2a18801b55e44aa0869ff4d75377a",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig2_interface_effects.pdf",
+      "sha256": "52c615b5befe693cd8b0911263c2ad3e46896ed65c014da64ebc66f18ca274e7",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig2_interface_effects.svg",
+      "sha256": "4120125bb82650a097bef87dd30574a3d4e374aa36586fbf44df91afacebf84c",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig3_web_selective_review.pdf",
+      "sha256": "384b89a278c3334e6b2b20a56699a02758ebe5a6399c59b0794f3ae6fd0dc387",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig3_web_selective_review.svg",
+      "sha256": "b229088b340fe3c3e994a500d0ebaa0561c1b779bcee1849c817530c4eb5169c",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig4_cost_tradeoff.pdf",
+      "sha256": "7aedbf3f971e16c78f41e6312966e2f825d506b992f1cd1da4b48b2282f495e4",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/fig4_cost_tradeoff.svg",
+      "sha256": "3fc3e3e01f0da3210597c306fd2ccb80efb96b02fd2803463db1c0156e7e24c0",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/figA_factor_forest.pdf",
+      "sha256": "6c10f538fbd118ff2cc99b8238fad998074f83e0b8d2dcd42c086637e1773445",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/figA_factor_forest.svg",
+      "sha256": "20454f1cf2cd06586aa34df1c421ca874b94be52914d8fe54d212f7c5d517f96",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/figA_rankcorr.pdf",
+      "sha256": "7dcafe3437ef95319fc41867d1a5cf5ee7f1bb13fc71cfd544c79015a7f83402",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/figA_rankcorr.svg",
+      "sha256": "6098ded4e3905212432b224a20e339479edd529be878a4d6e06bcf3ee17f3060",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/grc_multidataset_results_rev.tex",
+      "sha256": "3dc743015c5e87a86e37260b391ec6b2cea0536c98985b91eb06cef99642dc27",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/label_budget_natural.pdf",
+      "sha256": "7229df4ba7c997b20c683a54a1ff92258358d8ea45ad9fbe39cb7961f6b342bf",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/label_budget_natural.svg",
+      "sha256": "d668d937dfa941e42e9d879c970a53df77af1c56f44e95bc3b69b63334bbadb8",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/r9_cost.tex",
+      "sha256": "57b9684793a51cf69f1d82e4b276366a0be138ac3ca8c77850fbbfe378aa6d70",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/r9_sampling_full.tex",
+      "sha256": "ae54c73559b935e040b6c33502f810115f74683925c7bf28ee8d93b91319992d",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/v3_queues.tex",
+      "sha256": "e285adbc4f6ba3221458031504e32b563102941d17eee043059649988e6d89c5",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/web_calibration.tex",
+      "sha256": "89b4cdbb3009d481a9b3fa1adea02f1266035105f73d9ac376c8ce3b7fe11517",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/web_regimes.tex",
+      "sha256": "1d84b97a1c8ab3e5bb260317317b85ca95c31eebfdd325439bc6d92ca7a49e68",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/web_sites.tex",
+      "sha256": "ccc52bbe2f9a53598bbde1197aca696f6df4216c996216726bd30f4c3e5f81f5",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "legacy/packaging_v3/figures_revised/web_subgroups.tex",
+      "sha256": "d9b3ac548e3b606e2e727ec7e749ccac95894d74fd356a92dac3d6a74e18b37e",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "proposed_only/GPU_PLAN_NOT_RUN.md",
+      "sha256": "03227cc56f830c361033bb4b21f46e988d30f6ffc06a9ff89409b303ef63cfa8",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "proposed_only/README.md",
+      "sha256": "a6c7b828c23825d61414f1312f606d7fa2b736570b15ad442c4beeddfecb53bb",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "proposed_only/WEB_AUDIT_CODEBOOK.md",
+      "sha256": "88b95d634589c8ba2d19a30f86da414a3c2ecf619db06a443f3cd5a58e12ca36",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "proposed_only/make_web_audit_manifest.py",
+      "sha256": "a2bde6fda49aacd37ab45b37d461ea819cb7898630350824f5ed43e4d20e3561",
+      "reason": "Historical packaging or not-run material; not a current reproduction input."
+    },
+    {
+      "path": "protocol/CORRECTION_SCOPE.md",
+      "sha256": "9b8ef1d4bb26404ef61bad8f68ccda8f8540f25a44af9113f52102f9d0ad011f",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "protocol/V3_2_CLOSEOUT.md",
+      "sha256": "572968514588bddf4adf9948f538de1050da1e7a16639f58bd523d10d82ec8d7",
+      "reason": "Internal or superseded packaging documentation; replaced by current public documentation."
+    },
+    {
+      "path": "r9_1/check_gate.txt",
+      "sha256": "b28a4dd676484a34a60adfd8291653616d49d6456019ef3c572c62338633ce59",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/check_gpu.csv",
+      "sha256": "99fec2e07fed2a4f652cfd77c60af6a0bd8b0ca0234706f9ad499476581afe6f",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/internvl35_4b/check_gate.txt",
+      "sha256": "8a463358bbead63f94183dcd6a9e9c70d30cab85ff2b85b14a16afc5abfd2c58",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/internvl35_4b/check_gpu_16384644.csv",
+      "sha256": "b1a58f331a2964b0c109faf4113d6d9a8f779237938a75e44281fa5c5082d808",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/internvl35_4b/main_gpu_16384655.csv",
+      "sha256": "b1a58f331a2964b0c109faf4113d6d9a8f779237938a75e44281fa5c5082d808",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/internvl35_4b/run_log.jsonl",
+      "sha256": "d024346ccd7212233df810e9d9f2e5096b42bf39659b0f9051c514b2c0ce79cb",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/main_gpu.csv",
+      "sha256": "99fec2e07fed2a4f652cfd77c60af6a0bd8b0ca0234706f9ad499476581afe6f",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/r9_sampling_inference.py",
+      "sha256": "7bc46f043ef4ee019da34ac2fc90637153855d86ee7ff22cb5fa4d416e0fb855",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "r9_1/run_log.jsonl",
+      "sha256": "d997b015ba78ad0cb0f4a3caf5609a1f28d48e8eaa3d23a5b12abeb23e6dda8d",
+      "reason": "Private infrastructure log or unsupported GPU entry point; saved samples and measured generation times retained."
+    },
+    {
+      "path": "src/scripts_rev/build_factor_frame_rev1.py",
+      "sha256": "3a07bf5eea5e9126a92a64c9d2044c3309f9ce8efb45867bfc60ff42c706b07d",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/build_mind2web_index.py",
+      "sha256": "5bae1a07fc61f7ac7ff52a820b313067d3578280858534729e827b76b485937f",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/build_mind2web_manifest.py",
+      "sha256": "e814a15745d66c4be51e5084ea54f2f41a6f2a5663a6be0105c1ef88b9e404ed",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/extract_token_scores.py",
+      "sha256": "c4f5fe65de857c029bbfc26aa1c450cdc8f396112f1af2a12f855dfd1de5dd91",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/fix_p11b_v7w_row.py",
+      "sha256": "a6e812d6b6a2b99e2d7850d06abc0eabdceb17faaa6dc972c17251f4518c7f26",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/p0_make_figures_tables_2026_10_20.py",
+      "sha256": "8c6fe7f4fd62830145b7884ac3aa337fdbd4c3b01953f8596d0e3655952c0096",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/p2_figures_2026_10_20.py",
+      "sha256": "db6c95f85a02467401ef07023261501b884bcf329448c7f498c3e3f349bd3135",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/r3_an1_figure4.py",
+      "sha256": "ded92afb2e58ae95d7a5670eb408c0b6e599f310d9631ac73d4944049719d68f",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/r3_an2_web_budgets.py",
+      "sha256": "c090f664494f57a5da9e3d60f4eaf6b7d3807b0a7ebd591dc5b9a31ceb230b60",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/r3_an3_outcome_risk.py",
+      "sha256": "0b541ad8aa86c164c2843f2709c7f1d95b2cabdb58360011c06147919be5fdc8",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/r3_export_natural_features.py",
+      "sha256": "5a8d4e67dab65fedfe0f8abe711c05bbda6df4608fda72d69ba672a45f0da6b0",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/r3_replay_prospective.py",
+      "sha256": "284e03f802b04ba273126ebffa4b94d76cbd68a3dff58408f649abf143bc12c9",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/reparse_audit.py",
+      "sha256": "4fbcaff634243117fb13c8c9077749cf7c623b3a8625de7a2cea75586c0fccae",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e1a_baselines.py",
+      "sha256": "7af34d1de0d8f9680af65757ad5ae8adeb85cf093a214230bbee19c386699651",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e1a_fivesetting.py",
+      "sha256": "90754fe40746485951c57ad392063a10994b1667282d9585120ffa00a15e4048",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e1b_token_panel.py",
+      "sha256": "39e7e88a56fb4dbc1e2ceaafda5411543c493404cd80a457c5a07666e73481fe",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e2_geometry_mechanism.py",
+      "sha256": "e855e3b964593170c5306acc3dbc3d6cff9d900e755a8c0fe2aca76f2746bb2d",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e3_web_analysis.py",
+      "sha256": "09b78b9738710d1b01aac4f7b58d278c8dd48006a322455499574ade1cf68ff1",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e4_label_budgets_natural.py",
+      "sha256": "29e5faec26efbe24b08206285b8ac925baff9e44fe7bccb76d127f1dce5079d5",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e4_web_budgets.py",
+      "sha256": "a152e10b3a19b2f6fc63e1479a5b834504ec621faefdbd3b7d951cc505f30d40",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_e5_intervention_audit.py",
+      "sha256": "c71f89115531ff17cff3bf60bd116e837f5592485c515cf4232b0a2c655617c5",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/run_joint_factor_rev1.py",
+      "sha256": "035c3f739f1cbbb08f2efbc355a12399c96cf18be7327cef8a69a578ce869902",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    },
+    {
+      "path": "src/scripts_rev/scored_inference.py",
+      "sha256": "dbe5c2faff6524d6608b210662d3a54411a3796d38ef384f37b3bdc3b3827f66",
+      "reason": "Original ingestion/inference or historical analysis entry point needs unshipped inputs; CPU replay code retained."
+    }
+  ],
+  "privacy_minimized_manifest": {
+    "path": "data_compact/mind2web_frozen/manifest.csv",
+    "removed_columns": [
+      "op_value",
+      "task",
+      "target_action_reprs",
+      "label_text"
+    ],
+    "rows": 2066,
+    "row_order_and_all_retained_values_unchanged": true,
+    "original_sha256": "fcec739236bbd514398553fb9d1fee84479c343a429e8cdb2793f469bb708a5a",
+    "public_sha256": "0e1e03dd730739a55263c60aaa313cc811b86e072785ebbac144604684322a77",
+    "reason": "Remove task descriptions, typed values and target text, including benchmark emails; no analysis consumes these fields."
+  }
+}

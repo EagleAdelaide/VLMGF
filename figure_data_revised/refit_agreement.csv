@@ -1,0 +1,5 @@
+model,check,value
+qwen3vl4b,geom_token_O2_refit_vs_frozen_maxdiff,0.0
+qwen3vl4b,token_O2_refit_vs_frozen_maxdiff,0.0
+internvl35_4b,geom_token_O2_refit_vs_frozen_maxdiff,0.0
+internvl35_4b,token_O2_refit_vs_frozen_maxdiff,0.0

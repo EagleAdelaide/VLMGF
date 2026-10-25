@@ -1,0 +1,14 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcrrrrrrrr@{}}
+\toprule
+Score & Fit labels & \multicolumn{4}{c}{Qwen3-VL-4B} & \multicolumn{4}{c}{InternVL3.5-4B} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+ & & AUROC & C@20 & Coverage & Risk & AUROC & C@20 & Coverage & Risk \\
+\midrule
+A: Geometry GBDT & 510 & 0.616 & 65 & 0.467 & 0.183 & 0.721 & 146 & 0.480 & 0.487 \\
+A: Full GBDT & 510 & 0.621 & 65 & 0.458 & 0.154 & 0.730 & 145 & 0.434 & 0.446 \\
+B: Raw coord. entropy & 0 & 0.671 & 64 & 0.440 & 0.120 & 0.789 & 154 & 0.369 & 0.347 \\
+B: Token-only logistic & 510 & 0.695 & 70 & 0.440 & 0.125 & 0.801 & 163 & 0.369 & 0.366 \\
+B: Geom.+token logistic & 510 & 0.710 & 72 & 0.536 & 0.107 & 0.812 & 162 & 0.378 & 0.348 \\
+B: Geom.+token GBDT & 510 & 0.686 & 75 & 0.450 & 0.141 & 0.819 & 163 & 0.372 & 0.356 \\
+\bottomrule
+\end{tabular*}

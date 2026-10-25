@@ -1,0 +1,11 @@
+{
+  "files": 214,
+  "records": 144750,
+  "no_config": 0,
+  "parse_flips_gain": 14,
+  "parse_flips_loss": 0,
+  "bbox_changed": 20,
+  "iou_changed": 19,
+  "success_flips": 12,
+  "point_expanded_box_interface": 14
+}
