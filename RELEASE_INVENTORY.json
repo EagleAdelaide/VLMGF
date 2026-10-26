@@ -21,8 +21,8 @@
     },
     {
       "path": "DATA_PROVENANCE_AND_LIMITS.md",
-      "bytes": 2653,
-      "sha256": "b890ea877c509708fcc202b21dd817196eee856cb0d75b4f3c7288286c61db9a"
+      "bytes": 3004,
+      "sha256": "10efd93da7c0aeb4d55ea2fd919591a5f9a32f20364c5bddf2435d9c03c6798e"
     },
     {
       "path": "FIGURE_TABLE_CLAIM_MAP.csv",
@@ -41,13 +41,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 6270,
-      "sha256": "c2d5baf75a89334c8dab420534d72a55e63c13c69af80b2e593c952d411ee0a8"
+      "bytes": 6764,
+      "sha256": "e49c530fc87b1bd044e5aa13f5d876b725a81b7aa0b663acff885c3a4b6dc286"
     },
     {
       "path": "REPRODUCTION_REPORT.json",
       "bytes": 1995,
       "sha256": "4c9e678a2d699666881d58b51bb0909f573633c85c427e50f2d6fccb40d4bcde"
+    },
+    {
+      "path": "assets/VLMGF.png",
+      "bytes": 1588461,
+      "sha256": "ac543e8ee0e0817a4e1054d2531ba09e96d47df9c2b1585a3e34b3458ceffbc8"
     },
     {
       "path": "data_compact/bootstrap_e1b.json",

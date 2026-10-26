@@ -1,5 +1,9 @@
 # Beyond IoU: reproducibility materials
 
+![VLMGF method overview](assets/VLMGF.png)
+
+*Figure 1. Overview of outcome-aware Web grounding reliability evaluation. A vision–language model predicts a bounding box from a screenshot and target description. The same prediction is evaluated under two outcome definitions: box intersection-over-union (O1) and center-in-target correctness (O2). Separately, prediction-time signals are used to rank failures, while a threshold fixed using calibration inputs determines acceptance or review.*
+
 Outcome-aware reliability evaluation and failure triage for Web grounding. The study uses **static screenshot target localization**, oracle-provided target descriptions and already-generated box predictions. It does not execute browser actions or correct boxes.
 
 Reviewer access: https://anonymous.4open.science/r/VLMGF-27C5/

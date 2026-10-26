@@ -8,6 +8,8 @@ Obtain original Multimodal-Mind2Web images through its [official dataset card](h
 
 Natural-image numeric derivatives come from the named RefCOCO-family, Visual Genome, Flickr30k Entities, Visual7W and rule-converted GQA evaluations. Original images and raw dataset text must be obtained from their official providers under their respective terms. The frozen group IDs, features, fold assignments and outcomes needed for CPU L1/L2 are included; no image is needed by those levels. Model checkpoints require the upstream model licenses and are not shipped.
 
+The README overview (`assets/VLMGF.png`) is a separate, AI-assisted schematic with a synthetic interface and illustrative boxes. It contains no original webpage screenshot or car photograph and does not reproduce or replace the excluded manuscript Figure 1 artwork. Its labels describe the protocol, not measured results or executed browser actions.
+
 Original analysis software retains the anonymous project's MIT license in `LICENSE.txt`; third-party SafeGround code and its MIT copyright/license notices are unmodified under `r9_1/third_party/SAFEGROUND/`. Third-party names and upstream source/license links are attribution, not identifying links to this project's authors.
 
 L3 model-output regeneration is unsupported by this CPU package: it requires external licensed datasets, checkpoints, GPUs and the original generation environment. Nothing in L1/L2 is an executed browser action, a new Web human audit or a guarantee of future-site risk.
